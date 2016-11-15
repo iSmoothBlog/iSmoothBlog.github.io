@@ -44,7 +44,7 @@ content: '';border-right:20px solid #fff;border-top:15px solid #e2e2e2;bottom:-1
 position:absolute;left:25px;}
 h3.post-title:after,h2.post-title:after,h1.post-title:after {border-top-color:#fff;border-right-color:transparent;bottom:-13px;left:26px;}
 .post img{height:auto;max-width:95%;border:0;}
-.quickedit,.label-info{display:none;}
+.label-info{display:none;}
 .item-control {display:block;}
 
 /* Widgets */

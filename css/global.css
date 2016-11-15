@@ -121,6 +121,7 @@ max-width:728px;}
 .footer {padding-bottom:.2em;}
 #social_networks{width:100%;display:block;margin:0 auto;text-align:center;}
 #social_networks ul {list-style:none;}
+.quickedit{display:none;}
 
 /* Outer Wrapper */
 #outer-wrapper {background:#f0f0f0!important;max-width:1000px;margin:0 auto;padding:0 20px 0 20px;overflow:hidden;display: block;}
