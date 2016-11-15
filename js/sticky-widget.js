@@ -3,7 +3,7 @@ $(function() {
     var ks_sticky_widgets = function(){
         var ks_current_top = $(window).scrollTop();
            
-        if (ks_current_top &gt; ks_widget_top) {
+        if (ks_current_top > ks_widget_top) {
 		$('#HTML2').css({ 'position': 'fixed', 'top':20, 'width':300 });
         } else {
             $('#HTML2').css({ 'position': 'static' }); 
