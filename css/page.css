@@ -1,6 +1,6 @@
 /* Static Page Layout */
 .post-body blockquote{position:relative;margin:0 auto;padding:24px 20px 24px 45px;line-height:24px;text-shadow:0 1px 1px white;background-color:#f2f6c1;background-image:-webkit-radial-gradient(center,cover,rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 90%),-webkit-repeating-linear-gradient(top,transparent 0%,transparent 24px,rgba(239,207,173,0.7) 24px,rgba(239,207,173,0.7) 25px);border:1px solid rgba(0,0,0,0.05);}
-.post-body blockquote:before,.post-body blockquote:after{content:&#39;&#39;;position:absolute;top:0;bottom:0}
+.post-body blockquote:before,.post-body blockquote:after{content:'';position:absolute;top:0;bottom:0}
 .post-body blockquote:before{left:20px;border:4px solid rgba(239,207,173,0.7)}
 .post-body blockquote:after{z-index:-1;left:0;right:0;background:rgba(242,246,193,0.9);border:1px solid rgba(170,157,134,0.7);transform:rotate(2deg)}
 #post-wrapper {background:transparent;color:#444;float:left;width:100%;margin:0 0 10px;}
@@ -8,7 +8,7 @@
 .post {background:#fff;padding:15px;border-bottom: 2px solid #ddd;}
 .post-body {line-height:1.6em;color:#444;margin-top:15px;margin-right:0;font-size:13px;}
 .post-body img {max-width:95%;margin:0 auto;height:auto;}
-h3.post-title, h2.post-title, h1.post-title {font-family:&#39;Roboto Slab&#39;,sans-serif;font-size:20px;font-weight:400;text-align:center;border-bottom:1px solid #f0f0f0;padding-bottom:15px;}
+h3.post-title, h2.post-title, h1.post-title {font-family:'Roboto Slab',sans-serif;font-size:20px;font-weight:400;text-align:center;border-bottom:1px solid #f0f0f0;padding-bottom:15px;}
 h3.post-title a, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {color:#444;}
 h3.post-title a:hover, h2.post-title a:hover, h1.post-title a:hover {color:#8493A5!important;}
 #sidebar-wrapper {display:none;visibility:hidden;}
@@ -19,7 +19,7 @@ h3.post-title a:hover, h2.post-title a:hover, h1.post-title a:hover {color:#8493
 .toc-header-col2 {padding:15px!important;line-height:15px;background-color:#333;width:75px;transition:all 0.3s ease-in-out;}
 .toc-header-col3 {padding:15px!important;line-height:15px;background-color:#111;width:125px;transition:all 0.3s ease-in-out;}
 .toc-header-col1:hover, .toc-header-col2:hover, .toc-header-col3:hover {opacity:0.9;}
-.toc-header-col1 a:link, .toc-header-col1 a:visited, .toc-header-col2 a:link, .toc-header-col2 a:visited, .toc-header-col3 a:link, .toc-header-col3 a:visited {font-size:15px;text-transform: lowercase;text-decoration:none;color:#fff;font-family:&#39;Roboto Slab&#39;;font-weight:400;letter-spacing:0.5px;}
+.toc-header-col1 a:link, .toc-header-col1 a:visited, .toc-header-col2 a:link, .toc-header-col2 a:visited, .toc-header-col3 a:link, .toc-header-col3 a:visited {font-size:15px;text-transform: lowercase;text-decoration:none;color:#fff;font-family:'Roboto Slab';font-weight:400;letter-spacing:0.5px;}
 .toc-header-col1 a:hover, .toc-header-col2 a:hover, .toc-header-col3 a:hover {
 text-decoration:none;}
 .toc-entry-col1, .toc-entry-col2, .toc-entry-col3 {padding:10px;font-size:92%;;transition:all 0.3s ease-in-out;}
@@ -37,9 +37,9 @@ color:#666;}
 /* Contact Form */
 #ContactForm1_contact-form-name, #ContactForm1_contact-form-email{
 width:300px;height:auto;margin:5px auto;padding:10px;background:#fff;color:#666;border:1px solid #e9e9e9;transition:all 1s ease-in-out;}
-#ContactForm1_contact-form-email-message{width:450px;height:175px;margin:5px 0;padding:10px;background:#fff;color:#666;font-family:&#39;Roboto&#39;,sans-serif;border:1px solid #e9e9e9;transition:all 1s ease-in-out;}
+#ContactForm1_contact-form-email-message{width:450px;height:175px;margin:5px 0;padding:10px;background:#fff;color:#666;font-family:'Roboto',sans-serif;border:1px solid #e9e9e9;transition:all 1s ease-in-out;}
 #ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus{outline:none;border:1px solid #ccc;}
-#ContactForm1_contact-form-submit {font-family:&#39;Oswald&#39;;font-size:16px;width:101px;height:35px;float:left;color:#fff;font-weight:400;padding:0;margin:10px 0 3px 0;cursor:pointer;background:#bac0c4;border:none;text-transform:uppercase;border-radius:3px;transition:background 0.4s linear;}
+#ContactForm1_contact-form-submit {font-family:'Oswald';font-size:16px;width:101px;height:35px;float:left;color:#fff;font-weight:400;padding:0;margin:10px 0 3px 0;cursor:pointer;background:#bac0c4;border:none;text-transform:uppercase;border-radius:3px;transition:background 0.4s linear;}
 #ContactForm1_contact-form-submit:hover {background:#f48064;}
 #ContactForm1_contact-form-error-message, #ContactForm1_contact-form-success-message{
 width:450px;margin-top:35px;}
