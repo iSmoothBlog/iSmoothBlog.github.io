@@ -117,7 +117,6 @@ a.demo-inner {padding:0;margin:0;line-height:0;}
 .demo-inner .demo-backup {background-color:#fff;color:#00a1d6;}
 .demo-inner:hover .demo-front {margin-top:-40px;}
 
-
 /* Social Share */
 a.more{font-family:&#39;Oswald&#39;;text-transform:uppercase;background:#999;font-size:14px;color:#fff;text-align:center;padding:1px 6px;margin-top:-6px;border-radius:2px;}
 a.more:before{content:&quot;\f0fe&quot;;font-family:FontAwesome;font-style:normal;
@@ -150,7 +149,7 @@ float:right;text-decoration:none;display:inline;line-height:20px;margin-top:0;fo
 }
 .post-comments-button:hover{color:#444!important}
 
-/* Blog Post Responsive */
+/* Blog Responsive */
 
 @media screen and (max-width:1066px) {
 #HTML2 {visibility:hidden;overflow:hidden;opacity:0;}
