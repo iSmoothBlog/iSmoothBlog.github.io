@@ -1,53 +1,257 @@
 /* Index Layout */
-.post {background:#fff;color:#888;padding:10px 15px 10px 0;box-shadow:none;border-bottom:2px solid #ddd;
-margin:0 0 20px 0;transition:all 1s linear;}
-.post:hover {transition:.3s linear;}
-.post-body {line-height:1.6em;color:#888;margin-top:10px;margin-right:10px;font-size:11px;text-overflow:ellipsis;}
-h2.post-title, h1.post-title {white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:'Roboto Slab',sans-serif;font-size:20px;font-weight:400;padding:15px 0;padding-bottom:0;background:#fff;text-align:left;border-bottom:none;z-index:0;}
-h2.post-title:hover, h1.post-title:hover {color:#8493A5;}
-h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {color:#666;z-index:0;}
-h2.post-title a:hover, h1.post-title a:hover {color:#8493A5!important;}
-.post-info {background:#fff;margin-top:0;margin-bottom:0;padding:0;margin-right:15px;margin-left:15px;color:#aaa;font-size:11px;}
-.post-info a {display:inline;background:transparent;color:#999;padding:5px;padding-left:0;margin-bottom:10px;transition:all .3s ease-in-out;}
-.post-info a:hover {background:transparent;color:#8493A5;}
-.author-info, .time-info, .comment-info, .review-info {
-margin-right:2px!important;display:inline;padding:3px 5px;background:#fff;}
-a.read-more {display:inline-block;position:absolute;bottom:25px;right:20px;margin:15px 0 0;background:#fff;color:#999;padding:2px 10px;line-height:26px;font-family:'Open Sans',Verdana,Sans-serif;font-size:11px;font-weight:bold;border-radius:100px;box-shadow:0 1px 1px #e9e9e9;transition:all .3s ease-in-out;}
-a.read-more:hover {background:#8493A0;color:#fff;}
-a.read-more:active {background:#333;color:#fff;}
-.img-thumbnail {overflow:hidden;background:#fdfdfd;position:relative;float:left;width:240px;height:180px;margin:15px 25px 15px 25px;z-index:1;padding:0;}
-.img-thumbnail img {width:240px;height:180px;z-index:1;}
-.post .label-info {position:absolute;top:28px;left:25px;margin:0 auto;width:auto;z-index:1;opacity:1;transition:all .3s ease-in-out;}
-.label-info a{background:rgba(51,51,51,0.9);color:#fff;font-size:13px;display:block;float:left;padding:4px 8px;margin:0;margin-left:3px;transition:all .3s ease-in-out;}
-.label-info a:hover{background:rgba(51,51,51,1);color:#fff;}
-.label-info a:nth-child(2){background:#8493a5;color:#fff;transition:all .3s ease-in-out;}
-.label-info a:hover:nth-child(2){background:#828C91;color:#fff;}
-.label-info a:nth-child(n+3){display:none;}
+
+.post {
+    background: #fff;
+    color: #888;
+    padding: 10px 15px 10px 0;
+    box-shadow: none;
+    border-bottom: 2px solid #ddd;
+    margin: 0 0 20px 0;
+    transition: all 1s linear;
+}
+
+.post:hover {
+    transition: .3s linear;
+}
+
+.post-body {
+    line-height: 1.6em;
+    color: #888;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+    text-overflow: ellipsis;
+}
+
+h2.post-title,
+h1.post-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+    padding-bottom: 0;
+    background: #fff;
+    text-align: left;
+    border-bottom: none;
+    z-index: 0;
+}
+
+h2.post-title:hover,
+h1.post-title:hover {
+    color: #8493A5;
+}
+
+h2.post-title a,
+h1.post-title a,
+h2.post-title,
+h1.post-title {
+    color: #666;
+    z-index: 0;
+}
+
+h2.post-title a:hover,
+h1.post-title a:hover {
+    color: #8493A5!important;
+}
+
+.post-info {
+    background: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.post-info a {
+    display: inline;
+    background: transparent;
+    color: #999;
+    padding: 5px;
+    padding-left: 0;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.post-info a:hover {
+    background: transparent;
+    color: #8493A5;
+}
+
+.author-info,
+.time-info,
+.comment-info,
+.review-info {
+    margin-right: 2px!important;
+    display: inline;
+    padding: 3px 5px;
+    background: #fff;
+}
+
+a.read-more {
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    margin: 15px 0 0;
+    background: #fff;
+    color: #999;
+    padding: 2px 10px;
+    line-height: 26px;
+    font-family: 'Open Sans', Verdana, Sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 100px;
+    box-shadow: 0 1px 1px #e9e9e9;
+    transition: all .3s ease-in-out;
+}
+
+a.read-more:hover {
+    background: #8493A0;
+    color: #fff;
+}
+
+a.read-more:active {
+    background: #333;
+    color: #fff;
+}
+
+.img-thumbnail {
+    overflow: hidden;
+    background: #fdfdfd;
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 180px;
+    margin: 15px 25px 15px 25px;
+    z-index: 1;
+    padding: 0;
+}
+
+.img-thumbnail img {
+    width: 240px;
+    height: 180px;
+    z-index: 1;
+}
+
+.post .label-info {
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    margin: 0 auto;
+    width: auto;
+    z-index: 1;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.label-info a {
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    float: left;
+    padding: 4px 8px;
+    margin: 0;
+    margin-left: 3px;
+    transition: all .3s ease-in-out;
+}
+
+.label-info a:hover {
+    background: rgba(51, 51, 51, 1);
+    color: #fff;
+}
+
+.label-info a:nth-child(2) {
+    background: #8493a5;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.label-info a:hover:nth-child(2) {
+    background: #828C91;
+    color: #fff;
+}
+
+.label-info a:nth-child(n+3) {
+    display: none;
+}
+
 
 /* Index Responsive */
 
-@media only screen and (max-width:850px){
-.post-inner {padding:15px 0 0 0;
-}
-
-@media only screen and (max-width:640px){
-h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:16px;}
-.post-body {margin-bottom:10px;}
-.img-thumbnail {width:150px;height:100px;}
-.img-thumbnail img {width:150px;height:100px;}
-.comment-info{display:none!important;}
-a.read-more,.readm,.label-info {display:none;}
-.post {height:130px;}
-}
-
-@media only screen and (max-width:480px){
-h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:15px;}
-.img-thumbnail {width:80px;height:60px;}
-.img-thumbnail img {width:80px;height:60px;}
-.post-body{display:none!important;}
-.post {height:90px;}
-}
-
-@media only screen and (max-width:320px){
-h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:12px;}
-}
+@media only screen and (max-width:850px) {
+    .post-inner {
+        padding: 15px 0 0 0;
+    }
+    @media only screen and (max-width:640px) {
+        h2.post-title,
+        h1.post-title,
+        h2.post-title a,
+        h1.post-title a,
+        h2.post-title,
+        h1.post-title {
+            font-size: 16px;
+        }
+        .post-body {
+            margin-bottom: 10px;
+        }
+        .img-thumbnail {
+            width: 150px;
+            height: 100px;
+        }
+        .img-thumbnail img {
+            width: 150px;
+            height: 100px;
+        }
+        .comment-info {
+            display: none!important;
+        }
+        a.read-more,
+        .readm,
+        .label-info {
+            display: none;
+        }
+        .post {
+            height: 130px;
+        }
+    }
+    @media only screen and (max-width:480px) {
+        h2.post-title,
+        h1.post-title,
+        h2.post-title a,
+        h1.post-title a,
+        h2.post-title,
+        h1.post-title {
+            font-size: 15px;
+        }
+        .img-thumbnail {
+            width: 80px;
+            height: 60px;
+        }
+        .img-thumbnail img {
+            width: 80px;
+            height: 60px;
+        }
+        .post-body {
+            display: none!important;
+        }
+        .post {
+            height: 90px;
+        }
+    }
+    @media only screen and (max-width:320px) {
+        h2.post-title,
+        h1.post-title,
+        h2.post-title a,
+        h1.post-title a,
+        h2.post-title,
+        h1.post-title {
+            font-size: 12px;
+        }
+    }
