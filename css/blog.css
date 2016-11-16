@@ -47,8 +47,7 @@
 
 .post {
     background: #fff;
-    padding: 15px;
-    border-bottom: 2px solid #ddd;
+    padding: 15px 15px 0 15px;
 }
 
 .post-body {
@@ -875,6 +874,7 @@ a.more:hover {
 	overflow: hidden;
 	background-color: #fff;
     padding: 15px;
+	margin-top: 20px;
     margin-bottom: 20px;
     border-top: 1px #e3e3e3 solid;
 	border-bottom: 2px solid #ddd;
