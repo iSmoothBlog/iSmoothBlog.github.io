@@ -66,7 +66,17 @@ code .token.entity {cursor:help;}
 pre mark,code mark,pre code mark {background-color:#fff!important;color:#000!important;padding:2px;margin:0 2px;border-radius:2px;}
 pre[data-codetype="CSS"]:before,pre[data-codetype="HTML"]:before,
 pre[data-codetype="JS"]:before,pre[data-codetype="JQ"]:before,pre[data-codetype="BASH"]:before,pre[data-codetype="auto"]:before{background-color:#fff;box-shadow:inset 0 0 0 1px #eee;}
-micro-code{position:relative;color:#666;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;margin:0;padding:2px 3px 2px 3px;border:0;font-size:100%;font:inherit;vertical-align:baseline;background-color:#ebedef;}
+micro-code{
+	position:relative;
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    font-size: 0.85714rem;
+    line-height: 1.5;
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+}
 micro-code:before{position:absolute;content:'Double Click (Select)';display:table;bottom:23px;left:0;background:#4c4c4c;color:#fff;padding:4px;border-radius:2px;font-size:75%;line-height:1;opacity:0;visibility:hidden;transform:scale(0.8);z-index:2;transition:all .3s;}
 micro-code:hover:before{transform:scale(1.0);opacity:1;visibility:visible;transition:all .3s}
 
