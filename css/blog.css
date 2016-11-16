@@ -872,6 +872,7 @@ a.more:hover {
 
 .post-footer {
     width: 100%;
+	overflow: hidden;
 	background-color: #fff;
     padding-top: 15px;
     margin-bottom: 20px;
