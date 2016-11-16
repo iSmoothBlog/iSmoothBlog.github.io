@@ -871,7 +871,7 @@ a.more:hover {
 /* Post Footer */
 
 .post-footer {
-    width: 100%;
+    width: auto;
 	overflow: hidden;
 	background-color: #fff;
     padding: 15px;
