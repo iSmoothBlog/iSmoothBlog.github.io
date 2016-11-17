@@ -1979,10 +1979,6 @@ footer {
         display: none;
         visibility: hidden;
     }
-	#footer-widgetfix {
-        width: 100%;
-        overflow: hidden;
-    }
 }
 
 @media only screen and (max-width:768px) {
