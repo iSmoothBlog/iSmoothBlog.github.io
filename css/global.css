@@ -2000,6 +2000,7 @@ footer {
         position: static;
         overflow: hidden;
         display: none;
+		margin-top: 50px;
     }
     #menutop ul.menux {
         width: 100%;
