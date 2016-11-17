@@ -1987,20 +1987,17 @@ footer {
         position: relative;
         border: none;
         border-bottom: 4px solid #e9e9e9;
+		height: auto;
+		min-height: 50px;
     }
     #menutop li:hover > ul.menux {
         display: block;
     }
     #menutop ul {
         border: none;
-        border-bottom: 4px solid #e9e9e9;
         background: #fff;
         height: auto;
-        position: absolute;
-        right: 0;
-        left: 0;
-        top: 100%;
-        z-index: 3;
+        position: static;
         overflow: hidden;
         display: none;
     }
