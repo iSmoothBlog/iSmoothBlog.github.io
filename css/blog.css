@@ -908,6 +908,7 @@ a.more:hover {
 
 @media screen and (max-width:1066px) {
     #HTML2 {
+		display: none;
         visibility: hidden;
         overflow: hidden;
         opacity: 0;
