@@ -5,8 +5,8 @@ $(function() {
             i = $("#HTML2").height();
             if (f > t ? o.css({
                     position: "fixed",
-                    top: 20,
-					width:: "auto"
+					width: "auto",
+                    top: 20
                 }) : o.css("position", "static"), f > s) {
                 var n = s - f;
                 o.css({
