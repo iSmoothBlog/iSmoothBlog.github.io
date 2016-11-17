@@ -4,11 +4,9 @@
                   $(window).scrollTop() > o.data("top") ? $("#HTML2").css({
                       position: "fixed",
                       top: "20",
-                      width: "100%"
                   }) : $("#HTML2").css({
                       position: "relative",
                       top: "auto",
-                      width: "100%"
                   })
               }
               $("#HTML2").data("top", $("#HTML2").offset().top), $(window).scroll(o)
