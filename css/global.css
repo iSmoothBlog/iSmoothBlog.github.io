@@ -1979,6 +1979,10 @@ footer {
         display: none;
         visibility: hidden;
     }
+	#footer-widgetfix {
+        width: 100%;
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -2095,15 +2099,6 @@ footer {
     #sidebar-wrapper {
         width: 100%;
         max-width: 100%
-    }
-    #footer-widgetfix {
-        width: 100%;
-        overflow: hidden;
-    }
-    #footer-widgetfix .footer-widget {
-        width: 92%;
-        float: left;
-        margin-left: 20px;
     }
 }
 
