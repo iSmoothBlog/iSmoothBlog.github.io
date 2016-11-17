@@ -8,6 +8,7 @@ $(function() {
                 f = $(window).scrollTop();
             if (f > t ? o.css({
                     position: "fixed",
+					width: "auto",
                     top: 20
                 }) : o.css("position", "static"), f > s) {
                 var n = s - f;
