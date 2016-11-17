@@ -1,13 +1,20 @@
-          $(document).ready(function() {
-              function o() {
-                  var o = $("#HTML2");
-                  $(window).scrollTop() > o.data("top") ? $("#HTML2").css({
-                      position: "fixed",
-                      top: "20",
-                  }) : $("#HTML2").css({
-                      position: "relative",
-                      top: "auto",
-                  })
-              }
-              $("#HTML2").data("top", $("#HTML2").offset().top), $(window).scroll(o)
-          });
+$(function() {
+    if ($("#HTML2").length) {
+        var o = $("#HTML2"),
+            t = $("#HTML2").offset().top,
+            i = $("#HTML2").height();
+        $(window).scroll(function() {
+            var s = $("#footer-wrapper").offset().top - i - 20,
+                f = $(window).scrollTop();
+            if (f > t ? o.css({
+                    position: "fixed",
+                    top: 20
+                }) : o.css("position", "static"), f > s) {
+                var n = s - f;
+                o.css({
+                    top: n
+                })
+            }
+        })
+    }
+});
