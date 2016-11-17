@@ -1,17 +1,15 @@
-$(function() {
-    var ks_widget_top = $('#HTML2').offset().top;
-    var ks_sticky_widgets = function(){
-        var ks_current_top = $(window).scrollTop();
-           
-        if (ks_current_top > ks_widget_top) {
-		$('#HTML2').css({ 'position': 'fixed', 'top':20, 'width':300 });
-        } else {
-            $('#HTML2').css({ 'position': 'static' }); 
-        }  
-    };
-    ks_sticky_widgets();
-      $(window).scroll(function() {
-         ks_sticky_widgets();
-    });
-
-});
+          $(document).ready(function() {
+              function o() {
+                  var o = $("#HTML2");
+                  $(window).scrollTop() > o.data("top") ? $("#HTML2").css({
+                      position: "fixed",
+                      top: "20",
+                      width: "100%"
+                  }) : $("#HTML2").css({
+                      position: "relative",
+                      top: "auto",
+                      width: "100%"
+                  })
+              }
+              $("#HTML2").data("top", $("#HTML2").offset().top), $(window).scroll(o)
+          });
