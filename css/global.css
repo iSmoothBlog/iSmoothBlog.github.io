@@ -2005,7 +2005,8 @@ footer {
     #menutop ul.menux {
         width: 100%;
         position: static;
-        border: none
+        border: none;
+		padding-top: 0;
     }
     #menutop li {
         display: block;
