@@ -1,5 +1,5 @@
 $(function() {
-    if ($("#HTML6").length) {
+    if ($("#HTML2").length) {
         var o = $("#HTML2"),
             t = $("#HTML2").offset().top,
             i = $("#HTML2").height();
