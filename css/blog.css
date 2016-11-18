@@ -893,9 +893,9 @@ a.more:hover {
     margin-top: 0;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
-    color: #888!important;
+    color: #fff!important;
     fontweight: 400;
-    background: #ddd;
+    background: #8493a0;
     padding: 10px;
 }
 
