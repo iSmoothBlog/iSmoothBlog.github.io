@@ -872,7 +872,7 @@ a.more:hover {
 .post-footer {
     width: auto;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #f9f9f9;
     padding: 15px;
     margin-bottom: 20px;
     border-top: 1px #e3e3e3 solid;
@@ -886,6 +886,8 @@ a.more:hover {
 }
 
 .post-comments-button {
+    border: medium none;
+    border-radius: 3px;
     float: right;
     text-decoration: none;
     display: inline;
