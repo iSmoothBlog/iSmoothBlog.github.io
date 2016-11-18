@@ -4,7 +4,7 @@ $(function() {
             t = $("#HTML2").offset().top,
             i = $("#HTML2").height();
         $(window).scroll(function() {
-            var s = $("#footer-wrapper").offset().top - i - 900,
+            var s = $("#footer-wrapper").offset().top - i - 800,
                 f = $(window).scrollTop();
             if (f > t ? o.css({
                     position: "fixed",
