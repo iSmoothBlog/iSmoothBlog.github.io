@@ -886,7 +886,13 @@ a.more:hover {
 	color: #999;
 }
 
+.post-footer-comments a {
+	color: #999;
+}
+
 .post-comments-button {
+    border: medium none;
+    border-radius: 3px;
     float: right;
     text-decoration: none;
     display: inline;
