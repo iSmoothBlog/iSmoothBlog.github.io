@@ -683,11 +683,6 @@ footer {
     max-width: 728px;
 }
 
-.header-wrapper2 {
-    position: relative;
-    z-index: 999;
-}
-
 #sidebar-wrapper {
     float: right;
     width: 30%;
@@ -960,10 +955,15 @@ footer {
 
 #header-wrapper {
     padding-top: 15px;
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
     overflow: hidden;
     display: block;
+	background-color: #fff;
+}
+
+#header-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #header {
