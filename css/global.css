@@ -1347,6 +1347,14 @@ footer {
     width: 50%;
 }
 
+#footerx1 {
+padding-right: 5px;
+}
+
+#footerx2 {
+padding-left: 5px;
+}
+
 #footer-widgetfix {
     max-width: 1000px;
     overflow: hidden;
