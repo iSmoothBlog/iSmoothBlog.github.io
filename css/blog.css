@@ -929,6 +929,9 @@ a.more:hover {
     .post-body img {
         max-width: 90%;
     }
+    .post-inner {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width:640px) {
