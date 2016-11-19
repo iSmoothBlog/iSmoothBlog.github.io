@@ -1413,14 +1413,14 @@ footer {
     font-family: FontAwesome;
     content: '\f0c2'!important;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 #footer-wrapper .Profile h2:before {
     font-family: FontAwesome;
     content: '\f2c0'!important;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 
