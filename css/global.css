@@ -970,17 +970,17 @@ footer {
     font-family: 'Oswald';
     font-size: 250%;
     font-weight: 400;
-    color: #fff;
+    color: #333;
 }
 
 #header a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
 #header a:hover {
-    color: #000;
+    color: #fff;
 }
 
 #header .description {
