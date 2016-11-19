@@ -1946,9 +1946,6 @@ footer {
 }
 
 @media only screen and (max-width:850px) {
-    #menutop {
-        margin: 0 12px;
-    }
     #outer-wrapper {
         padding: 0 12px;
     }
