@@ -657,17 +657,13 @@ footer {
 }
 
 .post-inner {
-    padding: 15px 15px 0 0;
+    padding: 0 15px 0 0;
 }
 
 #sidebar-wrapper {
     float: right;
     width: 30%;
     margin: 0 auto;
-}
-
-.sidebar-inner {
-    padding: 15px 0;
 }
 
 #credit {
@@ -721,7 +717,7 @@ footer {
 #content-wrapper {
     background-color: #f0f0f0!important;
     margin: 0 auto;
-    padding: 5px 0 0;
+    padding: 0;
     word-wrap: break-word;
     display: block;
 }
@@ -937,12 +933,13 @@ footer {
 #header-wrapper {
     padding-top: 15px;
 	padding-bottom: 20px;
+	margin-bottom: 20px;
     width: 100%;
     overflow: hidden;
     display: block;
 	background-color: #fff;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .header-container {
@@ -1148,7 +1145,7 @@ footer {
 }
 
 .sidebar-inner {
-    padding: 15px 0;
+    padding: 0;
 }
 
 .sidebar h2,
