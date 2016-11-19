@@ -660,29 +660,6 @@ footer {
     padding: 15px 15px 0 0;
 }
 
-#header-wrapper {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    overflow: hidden;
-    display: block;
-}
-
-#header {
-    float: left;
-    width: 100%;
-    max-width: 257px;
-}
-
-.header-right {
-    float: right;
-    padding: 0;
-    overflow: hidden;
-    margin: 0;
-    width: 100%;
-    max-width: 728px;
-}
-
 #sidebar-wrapper {
     float: right;
     width: 30%;
@@ -955,6 +932,7 @@ footer {
 
 #header-wrapper {
     padding-top: 15px;
+	paddint-bottom: 20px;
     width: 100%;
     overflow: hidden;
     display: block;
@@ -964,6 +942,15 @@ footer {
 .header-container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.header-right {
+    float: right;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    max-width: 728px;
 }
 
 #header {
