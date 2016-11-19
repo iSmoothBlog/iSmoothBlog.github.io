@@ -185,73 +185,71 @@ a.read-more:active {
 
 /* Index Responsive */
 
-@media only screen and (max-width:850px) {
-    .post-inner {
-        padding: 15px 0 0 0;
+@media only screen and (max-width:640px) {
+    h2.post-title,
+    h1.post-title,
+    h2.post-title a,
+    h1.post-title a,
+    h2.post-title,
+    h1.post-title {
+        font-size: 16px;
     }
-    @media only screen and (max-width:640px) {
-        h2.post-title,
-        h1.post-title,
-        h2.post-title a,
-        h1.post-title a,
-        h2.post-title,
-        h1.post-title {
-            font-size: 16px;
-        }
-        .post-body {
-            margin-bottom: 10px;
-        }
-        .img-thumbnail {
-            width: 150px;
-            height: 100px;
-        }
-        .img-thumbnail img {
-            width: 150px;
-            height: 100px;
-        }
-        .comment-info {
-            display: none!important;
-        }
-        a.read-more,
-        .readm,
-        .label-info {
-            display: none;
-        }
-        .post {
-            height: 130px;
-        }
+    .post-body {
+        margin-bottom: 10px;
     }
-    @media only screen and (max-width:480px) {
-        h2.post-title,
-        h1.post-title,
-        h2.post-title a,
-        h1.post-title a,
-        h2.post-title,
-        h1.post-title {
-            font-size: 15px;
-        }
-        .img-thumbnail {
-            width: 80px;
-            height: 60px;
-        }
-        .img-thumbnail img {
-            width: 80px;
-            height: 60px;
-        }
-        .post-body {
-            display: none!important;
-        }
-        .post {
-            height: 90px;
-        }
+    .img-thumbnail {
+        width: 150px;
+        height: 100px;
     }
-    @media only screen and (max-width:320px) {
-        h2.post-title,
-        h1.post-title,
-        h2.post-title a,
-        h1.post-title a,
-        h2.post-title,
-        h1.post-title {
-            font-size: 12px;
-        }
+    .img-thumbnail img {
+        width: 150px;
+        height: 100px;
     }
+    .comment-info {
+        display: none!important;
+    }
+    a.read-more,
+    .readm,
+    .label-info {
+        display: none;
+    }
+    .post {
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    h2.post-title,
+    h1.post-title,
+    h2.post-title a,
+    h1.post-title a,
+    h2.post-title,
+    h1.post-title {
+        font-size: 15px;
+    }
+    .img-thumbnail {
+        width: 80px;
+        height: 60px;
+    }
+    .img-thumbnail img {
+        width: 80px;
+        height: 60px;
+    }
+    .post-body {
+        display: none!important;
+    }
+    .post {
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    h2.post-title,
+    h1.post-title,
+    h2.post-title a,
+    h1.post-title a,
+    h2.post-title,
+    h1.post-title {
+        font-size: 12px;
+    }
+}
