@@ -974,20 +974,20 @@ footer {
 }
 
 #header a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
 #header a:hover {
-    color: #8493A5;
+    color: #000;
 }
 
 #header .description {
     font-family: 'Oswald';
     font-size: 100%;
     font-weight: 400;
-    color: #444;
+    color: #fff;
     text-transform: none;
 }
 
