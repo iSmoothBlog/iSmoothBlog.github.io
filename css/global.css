@@ -734,6 +734,7 @@ footer {
     height: 50px;
     background: #333;
     width: 100%;
+	border-top: 2px #eee solid;
 }
 
 .menutop-inner {
