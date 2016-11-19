@@ -2061,9 +2061,6 @@ footer {
     #header {
         margin-bottom: 10px;
     }
-    #menutop {
-        margin: 0 10px;
-    }
     #outer-wrapper {
         padding: 0 10px;
     }
@@ -2099,9 +2096,6 @@ footer {
         margin: 0 auto;
         text-align: center;
     }
-    #menutop {
-        margin: 0 8px;
-    }
     #outer-wrapper {
         padding: 0 8px;
     }
@@ -2132,9 +2126,6 @@ footer {
         float: none;
         margin: 0 auto;
         text-align: center;
-    }
-    #menutop {
-        margin: 0 6px;
     }
     #outer-wrapper {
         padding: 0 6px;
