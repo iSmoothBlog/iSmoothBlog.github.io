@@ -1308,11 +1308,15 @@ footer {
 /* Footer */
 
 #footer-wrapper {
-    margin: 0 auto;
-    max-width: 1000px;
     text-align: left;
+	width: 100%;
     overflow: hidden;
     background-color: transparent;
+}
+
+.footer-bottom {
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .footer-bottom .widget {
@@ -1354,6 +1358,8 @@ footer {
     background: #333;
     padding: 12px 5px;
     border-top: 1px solid #111;
+	margin: 0 auto;
+    max-width: 1000px;
 }
 
 #credit {
@@ -1363,7 +1369,6 @@ footer {
     font-family: 'Open Sans', Helvetica;
     margin: 0 auto;
     font-weight: 400;
-    max-width: 1000px;
 }
 
 #credit a {
