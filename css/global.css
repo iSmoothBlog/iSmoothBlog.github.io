@@ -1348,11 +1348,13 @@ footer {
 }
 
 #footx1 {
-padding-right: 5px;
+	margin-right: 5px;
+	float: left;
 }
 
 #footx2 {
-padding-left: 5px;
+	margin-left: 5px;
+	float: right;
 }
 
 #footer-widgetfix {
