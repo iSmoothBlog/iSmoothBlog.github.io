@@ -1956,6 +1956,9 @@ footer {
     #post-wrapper {
         margin: 0;
     }
+	.post-inner {
+        padding: 0;
+    }
     .sidebar-inner {
         padding: 0;
     }
