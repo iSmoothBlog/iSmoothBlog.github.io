@@ -1907,9 +1907,7 @@ footer {
 }
 
 @media screen and (max-width:1066px) {
-	#header-wrapper {
-        width: 100%!important;
-        max-width: 100%;
+	.header-container {
 		margin-right: 20px;
 		margin-left: 20px;
     }
