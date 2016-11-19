@@ -940,7 +940,9 @@ footer {
     width: 100%;
     overflow: hidden;
     display: block;
-	background-color: #8493a0;
+	background-color: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
 }
 
 .header-container {
