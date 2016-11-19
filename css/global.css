@@ -972,24 +972,24 @@ footer {
     font-family: 'Oswald';
     font-size: 250%;
     font-weight: 400;
-    color: #333;
+    color: #000;
 }
 
 #header a {
-    color: #333;
+    color: #000;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
 #header a:hover {
-    color: #fff;
+    color: #8493a0;
 }
 
 #header .description {
     font-family: 'Oswald';
     font-size: 100%;
     font-weight: 400;
-    color: #fff;
+    color: #444;
     text-transform: none;
 }
 
