@@ -733,6 +733,10 @@ footer {
     display: block;
     height: 50px;
     background: #333;
+    width: 100%;
+}
+
+.menutop-inner {
     max-width: 1000px;
     margin: 0 auto;
 }
