@@ -1907,6 +1907,10 @@ footer {
 }
 
 @media screen and (max-width:1066px) {
+	#header-wrapper {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
     .header-right {
         float: right;
         padding: 0;
