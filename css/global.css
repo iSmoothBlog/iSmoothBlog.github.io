@@ -1344,7 +1344,7 @@ footer {
 }
 
 #footer-widgetfix .footer-widget {
-    width: 49%;
+    width: 50%;
 }
 
 #footer-widgetfix {
@@ -1358,17 +1358,17 @@ footer {
     background: #333;
     padding: 12px 5px;
     border-top: 1px solid #111;
-	margin: 0 auto;
-    max-width: 1000px;
+	width: 100%;
 }
 
 #credit {
     color: #eee;
-    width: 98%;
     font-size: 12px;
     font-family: 'Open Sans', Helvetica;
     margin: 0 auto;
     font-weight: 400;
+	margin: 0 auto;
+    max-width: 1000px;
 }
 
 #credit a {
