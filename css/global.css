@@ -1902,6 +1902,13 @@ footer {
 		margin-right: 20px;
 		margin-left: 20px;
     }
+    .header-right {
+        float: right;
+        padding: 0;
+        overflow: hidden;
+        margin: 0;
+        max-width: 640px!important;
+    }
     .header-right img {
         display: block;
     }
