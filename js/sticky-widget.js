@@ -10,7 +10,10 @@ $(function() {
                     position: "fixed",
                     width: 300,
                     top: 20
-                }) : o.css("position", "relative"), f > s) {
+                }) : o.css({
+					position: "relative",
+					top: 0
+				}), f > s) {
                 var n = s - f;
                 o.css({
                     top: n
