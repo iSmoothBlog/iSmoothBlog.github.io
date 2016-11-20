@@ -312,7 +312,7 @@ h1.post-title:after {
 /* Widgets */
 
 #HTML2 {
-    position: static;
+    position: relative;
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
     transition-delay: 0.2s;
