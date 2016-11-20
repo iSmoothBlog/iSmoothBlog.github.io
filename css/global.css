@@ -951,7 +951,7 @@ footer {
     float: right;
     padding: 0;
     overflow: hidden;
-    margin: 0;
+    margin: auto 0;
     width: 100%;
     max-width: 728px;
 }
