@@ -987,6 +987,7 @@ footer {
 
 .header-right {
     float: right;
+	text-align: right;
     padding: 5px 0 10px;
     overflow: hidden;
     margin: 0;
