@@ -991,7 +991,7 @@ footer {
     overflow: hidden;
     margin: 0;
     width: 100%;
-    max-width: 728px;
+	height: 100%;
 }
 
 .header-right img {
