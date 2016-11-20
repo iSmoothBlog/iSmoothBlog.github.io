@@ -1904,9 +1904,7 @@ footer {
     }
     .header-right {
         float: right;
-        padding: 0;
         overflow: hidden;
-        margin: 0;
         max-width: 640px!important;
     }
     .header-right img {
