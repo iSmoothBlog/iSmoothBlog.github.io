@@ -2053,6 +2053,10 @@ footer {
 }
 
 @media only screen and (max-width:640px) {
+	.header-container {
+		margin-right: 10px;
+		margin-left: 10px;
+    }
     #header h1,
     #header p,
     #header,
@@ -2087,6 +2091,10 @@ footer {
 }
 
 @media only screen and (max-width:480px) {
+	.header-container {
+		margin-right: 8px;
+		margin-left: 8px;
+    }
     .header-right {
         float: none;
         text-align: center;
@@ -2116,6 +2124,10 @@ footer {
 }
 
 @media screen and (max-width:320px) {
+	.header-container {
+		margin-right: 6px;
+		margin-left: 6px;
+    }
     .header-right {
         float: none;
         text-align: center;
