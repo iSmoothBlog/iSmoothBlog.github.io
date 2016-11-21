@@ -1983,6 +1983,7 @@ footer {
         border-bottom: 4px solid #e9e9e9;
 		height: auto;
 		min-height: 50px;
+		margin-bottom: 20px;
     }
     #menutop li:hover > ul.menux {
         display: block;
