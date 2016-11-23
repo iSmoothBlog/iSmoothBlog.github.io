@@ -47,6 +47,10 @@
     border-bottom: 2px solid #ddd;
 }
 
+.post-inner {
+	padding: 0;
+}
+
 .post-body {
     line-height: 1.6em;
     color: #444;
