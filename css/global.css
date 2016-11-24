@@ -1352,7 +1352,7 @@ footer {
     width: 100%;
     overflow: hidden;
     display: block;
-    background-color: #fff;
+    background-color: #888;
     border-top: 2px solid #ddd;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
 }
@@ -1379,6 +1379,7 @@ ul.footer-list li {
 
 ul.footer-list li a {
     text-transform: uppercase;
+	padding: 0 5px;
     color: #888;
     overflow: hidden;
     margin-right: 25px;
