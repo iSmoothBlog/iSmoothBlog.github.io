@@ -2097,6 +2097,9 @@ ul.footer-list li a:hover {
     #menutop input:checked ~ ul {
         display: block;
     }
+    #footer-nav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width:640px) {
@@ -2134,9 +2137,6 @@ ul.footer-list li a:hover {
     #sidebar-wrapper {
         width: 100%;
         max-width: 100%
-    }
-    #footer-nav {
-        display: none;
     }
 }
 
