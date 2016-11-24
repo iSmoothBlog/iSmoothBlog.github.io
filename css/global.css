@@ -1399,13 +1399,13 @@ ul.footer-list li a:hover {
 
 #footerfix {
     overflow: hidden;
-    background: #888;
+    background: #333;
     padding: 12px 5px;
 	width: 100%;
 }
 
 #credit {
-    color: #eee;
+    color: #fff;
     font-size: 12px;
     font-family: 'Open Sans', Helvetica;
     margin: 0 auto;
