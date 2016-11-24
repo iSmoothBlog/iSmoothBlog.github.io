@@ -1349,8 +1349,12 @@ footer {
 }
 
 #footer-nav {
-	background-color: #fff;
-	width: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
 }
 
 .footer-menu {
