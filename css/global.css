@@ -1348,49 +1348,6 @@ footer {
 	float: right;
 }
 
-#footer-nav {
-    width: 100%;
-    overflow: hidden;
-    display: block;
-    background-color: #fff;
-    border-top: 2px solid #ddd;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
-}
-
-.footer-menu {
-	margin: 0 auto;
-    max-width: 1000px;
-}
-
-ul.footer-list {
-    margin: auto;
-    padding: 0;
-    width: auto;
-    overflow: hidden;
-    float: left;
-    list-style: none;
-    line-height: 24px
-}
-
-ul.footer-list li {
-    display: inline-block;
-    margin: 20px 0
-}
-
-ul.footer-list li a {
-    text-transform: uppercase;
-	padding: 0 5px;
-    color: #888;
-    overflow: hidden;
-    margin-right: 25px;
-    font-size: 13px;
-    font-weight: 700
-}
-
-ul.footer-list li a:hover {
-    color: #8493A5;
-}
-
 #footer-widgetfix {
     max-width: 1000px;
     overflow: hidden;
@@ -1959,9 +1916,6 @@ ul.footer-list li a:hover {
     }
     .footer-bottom .widget-content {
         height: 100%;
-    }
-    ul.footer-list li a {
-        padding: 0 20px;
     }
 }
 
