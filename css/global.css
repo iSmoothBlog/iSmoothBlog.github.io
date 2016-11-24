@@ -1352,7 +1352,7 @@ footer {
     width: 100%;
     overflow: hidden;
     display: block;
-    background-color: #888;
+    background-color: #fff;
     border-top: 2px solid #ddd;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
 }
@@ -1399,7 +1399,7 @@ ul.footer-list li a:hover {
 
 #footerfix {
     overflow: hidden;
-    background: #333;
+    background: #888;
     padding: 12px 5px;
     border-top: 1px solid #111;
 	width: 100%;
