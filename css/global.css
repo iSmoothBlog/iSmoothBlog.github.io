@@ -2135,6 +2135,9 @@ ul.footer-list li a:hover {
         width: 100%;
         max-width: 100%
     }
+    #footer-nav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -2166,9 +2169,6 @@ ul.footer-list li a:hover {
     }
     .author-icons {
         visibility: hidden;
-        display: none;
-    }
-    #footer-nav {
         display: none;
     }
 }
