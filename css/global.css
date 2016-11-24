@@ -1306,7 +1306,7 @@ footer {
 }
 
 .footer-bottom {
-    margin: 0 auto;
+    margin: 0 auto 5px;
     max-width: 1000px;
 }
 
