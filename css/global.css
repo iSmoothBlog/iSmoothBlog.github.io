@@ -1752,12 +1752,19 @@ footer {
     height: 40px;
     right: 10px;
     bottom: 10px;
+	background:#95a5a6;
+	color:#fff;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:2px;
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
     transition-delay: 0.2s;
 }
 
 .smoothscroll:hover {
+	background:#7f8c8d;
+	color:#fff;
     transition: background 0.2s ease-in-out;
     transition-delay: 0s;
 }
