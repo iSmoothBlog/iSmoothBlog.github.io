@@ -1881,9 +1881,6 @@ footer {
         display: none;
         visibility: hidden;
     }
-    .smoothscroll.show {
-        border-radius: 3px;
-    }
     #credit {
         float: none;
         margin: 0 auto;
