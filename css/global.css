@@ -1761,6 +1761,12 @@ footer {
     transition-delay: 0.2s;
 }
 
+.smoothscroll:hover {
+	color: #777;
+	background: #8493a0;
+	
+}
+
 .smoothscroll.show {
     visibility: visible;
     cursor: pointer;
@@ -1916,6 +1922,10 @@ footer {
     .footer-bottom .widget-content {
         height: 100%;
     }
+	.smoothscroll:hover {
+		color: #444;
+		background: #c1c1c1;
+	}
 }
 
 @media screen and (max-width:960px) {
