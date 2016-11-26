@@ -1752,8 +1752,8 @@ footer {
     height: 36px;
     right: 10px;
     bottom: 10px;
-	background:#95a5a6;
-	color:#fff;
+	background:#c1c1c1;
+	color:#444;
 	font-size:20px;
 	border-radius: 50%;
     -webkit-transform: translateZ(0);
