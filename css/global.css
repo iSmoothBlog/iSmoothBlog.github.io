@@ -119,7 +119,7 @@ body {
 
 html {
     display: block;
-    -webkit-text-size-adjust: none;
+    -webkit-text-size-adjust: 100%;
 }
 
 ol,
