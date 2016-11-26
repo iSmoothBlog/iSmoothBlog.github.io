@@ -1761,13 +1761,6 @@ footer {
     transition-delay: 0.2s;
 }
 
-.smoothscroll:hover {
-	background:#7f8c8d;
-	color:#fff;
-    transition: background 0.2s ease-in-out;
-    transition-delay: 0s;
-}
-
 .smoothscroll.show {
     visibility: visible;
     cursor: pointer;
