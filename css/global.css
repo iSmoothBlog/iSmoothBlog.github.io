@@ -119,6 +119,7 @@ body {
 
 html {
     display: block;
+    -webkit-text-size-adjust: none;
 }
 
 ol,
