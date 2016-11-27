@@ -1886,10 +1886,12 @@ footer {
         text-align: center;
     }
     .credit-left,
-    .credit-right {
+    .credit-right,
+	.credit span {
         float: none;
         text-align: center;
         margin: 10px;
+		width: 100%;
     }
     #footer-wrapper {
         margin: 0;
