@@ -1887,8 +1887,7 @@ footer {
     }
     .credit-left,
     .credit-right,
-	span.credit-right,
-	span.credit-left {
+	.credit-item {
         float: none;
         text-align: center;
         margin: 10px;
