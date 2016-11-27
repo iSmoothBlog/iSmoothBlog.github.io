@@ -1891,7 +1891,7 @@ footer {
         float: none;
         text-align: center;
         margin: 10px;
-		width: 100%;
+		display: block;
     }
     #footer-wrapper {
         margin: 0;
