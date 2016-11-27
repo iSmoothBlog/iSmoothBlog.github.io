@@ -1396,6 +1396,11 @@ footer {
     margin: 10px 0;
 }
 
+.creditfix {
+    float: left;
+    margin: 10px 0;
+}
+
 .footer {
     font-weight: 400;
     padding-bottom: .2em;
