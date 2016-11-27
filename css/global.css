@@ -673,12 +673,11 @@ footer {
 }
 
 .credit-left {
-    text-align: center
+    float: left;
 }
 
 .credit-right {
     float: right;
-    margin: 9px 0 0
 }
 
 .footer {
