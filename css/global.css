@@ -674,10 +674,12 @@ footer {
 
 .credit-left {
     float: left;
+	margin: 10px 0;
 }
 
 .credit-right {
     float: right;
+	margin: 10px 0;
 }
 
 .footer {
@@ -1385,16 +1387,6 @@ footer {
     margin-left: 8px;
 }
 
-.cpleft {
-    float: left;
-    margin: 10px 0 10px 0;
-}
-
-.cpright {
-    float: right;
-    margin: 10px 0;
-}
-
 .creditfix {
     float: left;
 }
@@ -1893,8 +1885,8 @@ footer {
         margin: 0 auto;
         text-align: center;
     }
-    .cpleft,
-    .cpright {
+    .credit-left,
+    .credit-right {
         float: none;
         text-align: center;
         margin: 10px;
