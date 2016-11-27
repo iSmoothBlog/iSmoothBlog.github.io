@@ -1373,12 +1373,12 @@ footer {
 }
 
 #credit a {
-    color: #c1c1c1;
+    color: #fff;
     text-decoration: none
 }
 
 #credit a:hover {
-    color: #eee;
+    color: #c1c1c1;
     text-decoration: none
 }
 
