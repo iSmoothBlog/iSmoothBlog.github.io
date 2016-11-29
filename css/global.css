@@ -657,6 +657,10 @@ footer {
     display: block;
 }
 
+.post {
+	position: relative;
+}
+
 .post-inner {
     padding: 0 15px 0 0;
 }
