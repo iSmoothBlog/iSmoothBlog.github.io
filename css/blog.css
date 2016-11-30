@@ -69,7 +69,7 @@ h1.post-title {
     text-align: center;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 15px;
-	position: absolute;
+	position: relative;
 }
 
 h3.post-title a,
