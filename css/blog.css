@@ -266,8 +266,8 @@ margin-top: 10px!important;
 .author-box:before {
     content: 'Author';
     margin-left: 5px;
-    background-color: #8493A0;
-    color: #FFF;
+    background-color: #d3d3d3;
+    color: #444;
     padding: 2px 45px;
     position: absolute;
     right: -40px;
