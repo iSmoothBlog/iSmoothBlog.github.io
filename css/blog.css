@@ -190,17 +190,20 @@ h1.post-title a:hover {
 .author-img img {
     border: 1px solid #ddd!important;
     float: left;
-    margin-left: 10px;
 }
 
 .author-box {
-    background-color: #f9f9f9;
-    padding: 10px;
+    background-color: #fff;
+    padding: 20px;
     margin: 20px 0 5px 0;
     overflow: hidden;
     position: relative;
     border-top: 4px solid #bdc3c7;
 	border-bottom: 2px solid #ddd;
+}
+
+#___follow_0 {
+margin-top: 10px;
 }
 
 .author-bb {
@@ -261,7 +264,7 @@ h1.post-title a:hover {
 .author-box:before {
     content: 'Author';
     margin-left: 5px;
-    background-color: #2E2D2D;
+    background-color: #8493A0;
     color: #FFF;
     padding: 2px 45px;
     position: absolute;
