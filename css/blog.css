@@ -126,7 +126,6 @@ h1.post-title a:hover {
 
 .idea {
     background: #f7f4b4 url(http://1.bp.blogspot.com/_jM8-wHc3NKY/TRyZdA5DktI/AAAAAAAAAPA/sBvjaC6lbXA/s1600/update.png) no-repeat 1% center;
-    color: #8c8a64;
     text-shadow: 1px 1px 1px #ffffff;
     padding: 11px 8px 10px 65px;
     clear: both;
@@ -134,26 +133,29 @@ h1.post-title a:hover {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+	border: #d3d3d3 solid 1px;
 }
 
 .warning {
-    background: #fff url(http://1.bp.blogspot.com/-ryD1F1pHFeg/TzirUKYmBfI/AAAAAAAAAWw/55kxkY2CKa8/s1600/warning.png) no-repeat 1% center;
+    background: #f9f9f9 url(http://1.bp.blogspot.com/-ryD1F1pHFeg/TzirUKYmBfI/AAAAAAAAAWw/55kxkY2CKa8/s1600/warning.png) no-repeat 1% center;
     padding: 13px 8px 10px 50px;
     clear: both;
     min-height: 25px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+	border: #d3d3d3 solid 1px;
 }
 
 .note {
-    background: #fff url(http://2.bp.blogspot.com/-CXyf5DOMP5o/T0PquiOQ7JI/AAAAAAAAAfU/JPBIaoKHrgo/s1600/35px-Green-Tick.svg.png) no-repeat 1% center;
+    background: #f9f9f9 url(http://2.bp.blogspot.com/-CXyf5DOMP5o/T0PquiOQ7JI/AAAAAAAAAfU/JPBIaoKHrgo/s1600/35px-Green-Tick.svg.png) no-repeat 1% center;
     padding: 13px 8px 10px 50px;
     clear: both;
     min-height: 25px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+	border: #d3d3d3 solid 1px;
 }
 
 #explore-outer {
