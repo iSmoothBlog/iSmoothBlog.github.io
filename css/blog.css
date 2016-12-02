@@ -439,7 +439,7 @@ pre code {
 .hljs {
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 20px;
+    padding: 20px!important;
 }
 
 code .token.important {
