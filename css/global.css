@@ -1728,10 +1728,8 @@ footer {
 a.home-link {
 	position: absolute;
 	left: 50%;
-	border: 1px solid #c1c1c1;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%)
-	border-radius: 4px;
 }
 
 .displaypageNum a,
