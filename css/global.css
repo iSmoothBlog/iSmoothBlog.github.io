@@ -1712,6 +1712,8 @@ footer {
 .blog-pager a:hover {
     background-color: #eee;
     color: #8493A0;
+	position: relative;
+	height: 24px;
     transition: all .2s linear;
 }
 
