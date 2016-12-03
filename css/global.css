@@ -1725,13 +1725,6 @@ footer {
     float: right
 }
 
-a.home-link {
-	position: absolute;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%)
-}
-
 .displaypageNum a,
 .showpage a,
 .pagecurrent {
