@@ -1725,6 +1725,8 @@ footer {
 
 a.home-link {
 	position: absolute;
+	border: 1px solid #c1c1c1;
+	border-radius: 4px;
 }
 
 .displaypageNum a,
