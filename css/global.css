@@ -1726,7 +1726,7 @@ footer {
     float: right
 }
 
-a.home-link {
+#blog-pager a.home-link {
 	text-transform: uppercase;
 	font-weight: bold;
 	background-color: #8493A0;
@@ -1737,7 +1737,7 @@ a.home-link {
 	transform: translateX(-50%)
 }
 
-a.home-link:hover {
+#blog-pager a.home-link:hover {
 	background-color: #999;
 	color: #fff;
 }
