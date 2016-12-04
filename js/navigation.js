@@ -1,14 +1,9 @@
     var perPage = 5;
     var numPages = 3;
-    var firstText = 'First';
-    var lastText = 'Last';
     var prevText = '<i aria-hidden="true" class="fa fa-angle-double-left"></i>';
     var nextText = '<i aria-hidden="true" class="fa fa-angle-double-right"></i>';
     var urlactivepage = location.href;
     var home_page = "/";
-
-    if (typeof firstText == "undefined") firstText = "First";
-    if (typeof lastText == "undefined") lastText = "Last";
     var noPage;
     var currentPage;
     var currentPageNo;
