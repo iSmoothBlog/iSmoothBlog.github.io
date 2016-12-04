@@ -32,7 +32,7 @@
         if (currentPageNo > 1) {
             if (currentPage == "page" && currentPageNo == 2) {
                 html += '<span class="showpage prevpage"><a href="' + home_page + '">' + prevText + '</a></span>'
-            } else {
+            } else (currentPage == "label" && currentPageNo == 2) {
                 html += '<span class="displaypageNum prevpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + prevText + '</a></span>'
             }
         }
