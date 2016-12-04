@@ -1806,7 +1806,6 @@ a.home-link:hover {
 	background:#c1c1c1;
 	color:#444;
 	font-size:20px;
-	text-align: center;
 	border-radius: 50%;
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
@@ -1826,10 +1825,12 @@ a.home-link:hover {
 }
 
 .smoothscroll i.fa.fa-angle-up {
-    position: relative;
+    position: absolute;
     top: 50%;
-	transform: translateY(-50%);
+    left: 50%;
+    margin: -11px 0 0 -6px;
 }
+
 
 /* Alert */
 
