@@ -218,8 +218,8 @@ margin-top: 10px!important;
 
 .author-icons {
     position: absolute;
-    right: 70px;
-    top: 10px
+    right: 20px;
+    top: 20px
 }
 
 .author-icons .website:before {
@@ -265,13 +265,14 @@ margin-top: 10px!important;
 
 .author-box:before {
     content: 'Author';
-    margin-left: 5px;
     background-color: #d3d3d3;
     color: #444;
-    padding: 2px 45px;
+	width: 82px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
     position: absolute;
-    right: -40px;
-    top: 10px;
+    bottom: 9px;
     -webkit-transform: rotate(40deg);
     -moz-transform: rotate(40deg);
     -o-transform: rotate(40deg);
