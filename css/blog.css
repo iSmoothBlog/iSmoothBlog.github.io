@@ -273,9 +273,6 @@ margin-top: 10px!important;
 	font-size: 13px;
     position: absolute;
     bottom: 9px;
-    -webkit-transform: rotate(40deg);
-    -moz-transform: rotate(40deg);
-    -o-transform: rotate(40deg);
     text-align: center
 }
 
