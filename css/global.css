@@ -1687,7 +1687,7 @@ footer {
 
 /* Page Navigation */
 
-.blog-pager {
+#blog-pager {
     background: #fff;
     clear: both;
     text-align: center;
@@ -1695,6 +1695,11 @@ footer {
     font-family: 'Open Sans';
     font-weight: 700;
     border-bottom: 2px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	position: relative;
+	height: 23px;
 }
 
 .blog-pager a {
@@ -1705,14 +1710,6 @@ footer {
     margin-right: 2px;
     border-radius: 2px;
     transition: all .6s linear;
-}
-
-#blog-pager {
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-	position: relative;
-	height: 23px;
 }
 
 .blog-pager a:hover {
