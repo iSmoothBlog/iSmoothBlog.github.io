@@ -119,6 +119,10 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+html * {
+    max-height:1000000px;
+}
+
 ol,
 ul {
     list-style: none;
@@ -1726,10 +1730,19 @@ footer {
 }
 
 a.home-link {
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #8493A0;
+	color: #fff;
 	position: absolute;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%)
+}
+
+a.home-link:hover {
+	background-color: #999;
+	color: #fff;
 }
 
 .displaypageNum a,
