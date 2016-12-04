@@ -213,7 +213,7 @@ h1.post-title a:hover {
 	line-height: 20px;
 	font-size: 13px;
     position: absolute;
-    bottom: 10px;
+    top: 92px;
     text-align: center;
 	border-radius: 5px;
 }
