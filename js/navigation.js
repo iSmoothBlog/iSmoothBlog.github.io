@@ -33,15 +33,12 @@
             if (currentPage == "page" && currentPageNo == 2) {
                 html += '<span class="showpage prevpage"><a href="' + home_page + '">' + prevText + '</a></span>'
             } else {
-                html += '<span class="displaypageNum firstpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + firstText + '</a></span>'
+                html += '<span class="displaypageNum prevpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + prevText + '</a></span>'
             }
         }
         if (currentPageNo > 2) {
             if (currentPageNo == 3) {
-                if (currentPage == "page") {
                     html += '<span class="displaypageNum prevpage"><a href="#" onclick="redirectpage(' + prevNumber + ');return false">' + prevText + '</a></span>'
-                } else {
-                    html += '<span class="displaypageNum prevpage"><a href="#" onclick="redirectlabel(' + prevNumber + ');return false">' + prevText + '</a></span>'
                 }
             } else {
                 if (currentPage == "page") {
