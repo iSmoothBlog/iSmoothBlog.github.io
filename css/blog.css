@@ -199,7 +199,7 @@ h1.post-title a:hover {
 	border-bottom: 2px solid #ddd;
 }
 
-.author-box:before {
+.author-img:before {
     content: 'Author';
     background-color: #d3d3d3;
     color: #444;
