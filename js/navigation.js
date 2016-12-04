@@ -41,7 +41,7 @@
                 if (currentPage == "page") {
                     html += '<span class="displaypageNum prevpage"><a href="#" onclick="redirectpage(' + prevNumber + ');return false">' + prevText + '</a></span>'
                 } else {
-                    html += '<span class="displaypageNum prevpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + prevText + '</a></span>'
+                    html += '<span class="displaypageNum prevpage"><a href="#" onclick="redirectlabel(' + prevNumber + ');return false">' + prevText + '</a></span>'
                 }
             } else {
                 if (currentPage == "page") {
