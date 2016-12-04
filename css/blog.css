@@ -987,7 +987,7 @@ a.more:hover {
         visibility: hidden;
         display: none;
     }
-	author-box {
+	.author-box {
 		max-height: auto;
 	}
 }
