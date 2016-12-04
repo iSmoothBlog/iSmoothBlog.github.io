@@ -197,7 +197,7 @@ h1.post-title a:hover {
     position: relative;
     border-top: 4px solid #999;
 	border-bottom: 2px solid #ddd;
-	height: 99px;
+	max-height: 99px;
 }
 
 .author-box:before {
@@ -983,6 +983,13 @@ a.more:hover {
     h1.post-title {
         font-size: 16px;
     }
+    .author-icons {
+        visibility: hidden;
+        display: none;
+    }
+	author-box {
+		max-height: 99px;
+	}
 }
 
 @media only screen and (max-width:320px) {

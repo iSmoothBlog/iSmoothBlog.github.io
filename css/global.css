@@ -2191,10 +2191,6 @@ span.showpage.prevpage {
     .post-info {
         font-size: 12px;
     }
-    .author-icons {
-        visibility: hidden;
-        display: none;
-    }
 }
 
 @media screen and (max-width:320px) {
