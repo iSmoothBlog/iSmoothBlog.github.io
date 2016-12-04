@@ -189,11 +189,6 @@ h1.post-title a:hover {
     background: #fff;
 }
 
-.author-img img {
-    border: 1px solid #ddd!important;
-    float: left;
-}
-
 .author-box {
     background-color: #fff;
     padding: 20px;
@@ -202,6 +197,25 @@ h1.post-title a:hover {
     position: relative;
     border-top: 4px solid #999;
 	border-bottom: 2px solid #ddd;
+}
+
+.author-img img {
+    border: 1px solid #ddd!important;
+    float: left;
+}
+
+.author-img:before {
+    content: 'Author';
+    background-color: #d3d3d3;
+    color: #444;
+	width: 82px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+	border-radius: 5px;
 }
 
 #___follow_0 {
@@ -261,20 +275,6 @@ margin-top: 10px!important;
 
 .author-name {
     font-size: 14px
-}
-
-.author-box:before {
-    content: 'Author';
-    background-color: #d3d3d3;
-    color: #444;
-	width: 82px;
-	height: 20px;
-	line-height: 20px;
-	font-size: 13px;
-    position: absolute;
-    bottom: 9px;
-    text-align: center
-	border-radius: 5px;
 }
 
 h3.post-title:before,
