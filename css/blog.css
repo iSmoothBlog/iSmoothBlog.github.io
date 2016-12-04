@@ -199,12 +199,7 @@ h1.post-title a:hover {
 	border-bottom: 2px solid #ddd;
 }
 
-.author-img img {
-    border: 1px solid #ddd!important;
-    float: left;
-}
-
-.author-img:before {
+.author-box:before {
     content: 'Author';
     background-color: #d3d3d3;
     color: #444;
@@ -216,6 +211,11 @@ h1.post-title a:hover {
     top: 110px;
     text-align: center;
 	border-radius: 5px;
+}
+
+.author-img img {
+    border: 1px solid #ddd!important;
+    float: left;
 }
 
 #___follow_0 {
