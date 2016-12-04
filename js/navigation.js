@@ -2,8 +2,8 @@
     var numPages=3;
     var firstText ='First';
     var lastText ='Last';
-    var prevText ='Prev';
-    var nextText ='Next';
+    var prevText ='<i aria-hidden="true" class="fa fa-angle-double-left"></i>';
+    var nextText ='<i aria-hidden="true" class="fa fa-angle-double-right"></i>';
     var urlactivepage=location.href;
     var home_page="/";
 

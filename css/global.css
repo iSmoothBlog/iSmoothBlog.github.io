@@ -1790,6 +1790,13 @@ a.home-link:hover {
     transition: all .2s linear;
 }
 
+span.displaypageNum.nextpage {
+	float: right;
+}
+
+span.displaypageNum.prevpage {
+	float: left;
+}
 
 /* Bounce */
 
