@@ -30,7 +30,7 @@
         html += "<span class='showpageOf'>Page " + currentPageNo + ' of ' + lastPageNo + "</span>";
         var prevNumber = parseInt(currentPageNo) - 1;
         if (currentPageNo > 1) {
-            if (currentPage == "page" || currentPageNo == 2) {
+            if (currentPage == "page" && currentPageNo == 2) {
                 html += '<span class="showpage prevpage"><a href="' + home_page + '">' + prevText + '</a></span>'
             } else {
                 html += '<span class="displaypageNum firstpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + firstText + '</a></span>'
