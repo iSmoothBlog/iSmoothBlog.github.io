@@ -31,7 +31,7 @@
         var prevNumber = parseInt(currentPageNo) - 1;
         if (currentPageNo > 1) {
             if (currentPage == "page") {
-                html += '<span class="displaypageNum prevpage"><a href="#" onclick="redirectpage(' + prevNumber + ');return false">' + prevText + '</a></span>'
+                html += '<span class="showpage prevpage"><a href="' + home_page + '">' + prevText + '</a></span>'
             } else {
                 html += '<span class="displaypageNum firstpage"><a href="/search/label/' + postLabel + '?&max-results=' + perPage + '">' + firstText + '</a></span>'
             }
