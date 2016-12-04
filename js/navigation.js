@@ -113,8 +113,8 @@
         if (thisUrl.indexOf("?q=") == -1 && thisUrl.indexOf(".html") == -1) {
             if (thisUrl.indexOf("/search/label/") == -1) {
                 currentPage = "page";
-                if (urlactivepage.indexOf("#PageNo=") != -1) {
-                    currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length)
+                if (urlactivepage.indexOf("#page=") != -1) {
+                    currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#page=") + 8, urlactivepage.length)
                 } else {
                     currentPageNo = 1
                 }
@@ -124,8 +124,8 @@
                 if (thisUrl.indexOf("&max-results=") == -1) {
                     perPage = 20
                 }
-                if (urlactivepage.indexOf("#PageNo=") != -1) {
-                    currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#PageNo=") + 8, urlactivepage.length)
+                if (urlactivepage.indexOf("#page=") != -1) {
+                    currentPageNo = urlactivepage.substring(urlactivepage.indexOf("#page=") + 8, urlactivepage.length)
                 } else {
                     currentPageNo = 1
                 }
@@ -159,9 +159,9 @@
         var timestamp1 = post.published.$t.substring(0, 19) + post.published.$t.substring(23, 29);
         var timestamp = encodeURIComponent(timestamp1);
         if (currentPage == "page") {
-            var pAddress = "/search?updated-max=" + timestamp + "&max-results=" + perPage + "#PageNo=" + noPage
+            var pAddress = "/search?updated-max=" + timestamp + "&max-results=" + perPage + "#page=" + noPage
         } else {
-            var pAddress = "/search/label/" + postLabel + "?updated-max=" + timestamp + "&max-results=" + perPage + "#PageNo=" + noPage
+            var pAddress = "/search/label/" + postLabel + "?updated-max=" + timestamp + "&max-results=" + perPage + "#page=" + noPage
         }
         location.href = pAddress
     }
