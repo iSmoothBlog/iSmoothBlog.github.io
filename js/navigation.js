@@ -91,14 +91,12 @@
         var nextnumber = parseInt(currentPageNo) + 1;
         if (currentPage == "label") {
             if (currentPageNo == 2 && currentPageNo < lastPageNo || currentPageNo == 1) {
-                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectpage(' + nextnumber + ');return false">' + nextText + '</a></span>'
+                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectlabel(' + nextnumber + ');return false">' + nextText + '</a></span>'
             }
         }
         if (currentPageNo < (lastPageNo - 1)) {
             if (currentPage == "page") {
                 html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectpage(' + nextnumber + ');return false">' + nextText + '</a></span>'
-            } else {
-                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectlabel(' + nextnumber + ');return false">' + nextText + '</a></span>'
             }
         }
         if (currentPageNo < lastPageNo) {
