@@ -89,21 +89,11 @@
             }
         }
         var nextnumber = parseInt(currentPageNo) + 1;
-        if (currentPage == "label") {
-            if (currentPageNo >= 1 && currentPageNo < lastPageNo) {
-                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectlabel(' + nextnumber + ');return false">' + nextText + '</a></span>'
-            }
-        }
-        if (currentPageNo < (lastPageNo - 1)) {
-            if (currentPage == "page") {
-                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectpage(' + nextnumber + ');return false">' + nextText + '</a></span>'
-            }
-        }
         if (currentPageNo < lastPageNo) {
             if (currentPage == "page") {
-                html += '<span class="displaypageNum lastpage"><a href="#" onclick="redirectpage(' + lastPageNo + ');return false">' + lastText + '</a></span>'
+                html += '<span class="displaypageNum"><a href="#" onclick="redirectpage(' + lastPageNo + ');return false">' + lastPageNo + '</a></span>'
             } else {
-                html += '<span class="displaypageNum lastpage"><a href="#" onclick="redirectlabel(' + lastPageNo + ');return false">' + lastText + '</a></span>'
+                html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectlabel(' + nextnumber + ');return false">' + nextText + '</a></span>'
             }
         }
         var pageArea = document.getElementsByName("pageArea");
