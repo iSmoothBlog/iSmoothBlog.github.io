@@ -89,6 +89,9 @@
             }
         }
         var nextnumber = parseInt(currentPageNo) + 1;
+        if (currentPage == "label" && currentPageNo == 2) {
+            html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectlabel(' + nextnumber + ');return false">' + nextText + '</a></span>'
+        }
         if (currentPageNo < (lastPageNo - 1)) {
             if (currentPage == "page") {
                 html += '<span class="displaypageNum nextpage"><a href="#" onclick="redirectpage(' + nextnumber + ');return false">' + nextText + '</a></span>'
