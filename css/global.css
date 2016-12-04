@@ -1766,18 +1766,6 @@ a.home-link:hover {
     transition: all .2s linear;
 }
 
-.showpageOf {
-    display: none!important
-}
-
-.firstpage {
-    display: none!important
-}
-
-.lastpage {
-    display: none!important
-}
-
 #blog-pager .showpage,
 #blog-pager .pagecurrent {
     font-weight: bold;
