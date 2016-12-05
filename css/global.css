@@ -119,10 +119,6 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-html * {
-    max-height:1000000px;
-}
-
 ol,
 ul {
     list-style: none;
