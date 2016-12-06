@@ -1,10 +1,5 @@
 /* Static Page Layout */
 
-.footer-bottom {
-	display: none;
-	visibility: hidden;
-}
-
 .post-body blockquote {
     position: relative;
     margin: 0 auto;
@@ -100,6 +95,10 @@ h1.post-title a:hover {
     visibility: hidden;
 }
 
+.footer-bottom {
+	display: none;
+	visibility: hidden;
+}
 
 /* Sitemap */
 
