@@ -1,5 +1,9 @@
 /* Static Page Layout */
 
+.footer-bottom {
+	display: none;
+}
+
 .post-body blockquote {
     position: relative;
     margin: 0 auto;
