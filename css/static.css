@@ -2,6 +2,7 @@
 
 .footer-bottom {
 	display: none;
+	visibility: hidden;
 }
 
 .post-body blockquote {
