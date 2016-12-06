@@ -299,40 +299,56 @@ span.toc-note {
     width: 100%;
 }
 
-.table-0 {
-    border: 1px solid #ddd!important;
-    width: 100%;
+h2.table-1,
+h2.table-2,
+h2.table-3 {
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    color: #444!important;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
+    background-color: #d3d3d3!important;
 }
 
-.table-0 th,
-tr,
-td {
-    border: 1px solid #ddd!important;
+h2.table-1:before {
+    font-family: FontAwesome;
+    content: '\f02d';
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+h2.table-2:before {
+    font-family: FontAwesome;
+    content: '\f09c';
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+h2.table-3:before {
+    font-family: FontAwesome;
+    content: '\f179';
+    margin-right: 10px;
+    font-size: 21px;
 }
 
 .table-1 {
-    text-align: center!important;
-    background: #777;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px!important;
-    font-size: 20px!important;
+    border-bottom: 2px solid #ddd!important;
+	background-color: #f9f9f9;
+    width: 100%;
 }
 
 .table-2 {
-    background: #777;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px!important;
-    font-size: 20px!important;
+    border-bottom: 2px solid #ddd!important;
+	background-color: #f9f9f9;
+    width: 100%;
 }
 
 .table-3 {
-    background: #777;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px!important;
-    font-size: 20px!important;
+    border-bottom: 2px solid #ddd!important;
+	background-color: #f9f9f9;
+    width: 100%;
 }
 
 .sub {
