@@ -337,18 +337,21 @@ h2.table-3:before {
     border-bottom: 2px solid #ddd!important;
 	background-color: #f9f9f9;
     width: 100%;
+	margin-bottom: 20px;
 }
 
 #table-2 {
     border-bottom: 2px solid #ddd!important;
 	background-color: #f9f9f9;
     width: 100%;
+	margin-bottom: 20px;
 }
 
 #table-3 {
     border-bottom: 2px solid #ddd!important;
 	background-color: #f9f9f9;
     width: 100%;
+	margin-bottom: 20px;
 }
 
 .sub {
