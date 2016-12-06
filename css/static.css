@@ -299,9 +299,9 @@ span.toc-note {
     width: 100%;
 }
 
-h2.table-1,
-h2.table-2,
-h2.table-3 {
+.table-1 h2,
+.table-2 h2,
+.table-3 h2 {
     font-family: 'Oswald';
     font-size: 16px;
     font-weight: 400;
@@ -312,21 +312,21 @@ h2.table-3 {
     background-color: #d3d3d3!important;
 }
 
-h2.table-1:before {
+.table-1 h2:before {
     font-family: FontAwesome;
     content: '\f02d';
     margin-right: 10px;
     font-size: 21px;
 }
 
-h2.table-2:before {
+.table-2 h2:before {
     font-family: FontAwesome;
     content: '\f09c';
     margin-right: 10px;
     font-size: 21px;
 }
 
-h2.table-3:before {
+.table-3 h2:before {
     font-family: FontAwesome;
     content: '\f179';
     margin-right: 10px;
