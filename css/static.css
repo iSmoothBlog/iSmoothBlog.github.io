@@ -293,10 +293,6 @@ span.toc-note {
 
 /* Download Section */
 
-table {
-margin: 10px auto!important;
-}
-
 .mirrors a {
     font-weight: bold;
     font-size: 14px;
@@ -305,6 +301,10 @@ margin: 10px auto!important;
 .download-wrapper {
     float: left;
     width: 100%;
+}
+
+table {
+margin: 10px auto!important;
 }
 
 #table-1 h2,
