@@ -293,6 +293,10 @@ span.toc-note {
 
 /* Download Section */
 
+table {
+margin: 10px auto!important;
+}
+
 .mirrors a {
     font-weight: bold;
     font-size: 14px;
