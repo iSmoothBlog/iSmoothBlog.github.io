@@ -293,6 +293,11 @@ span.toc-note {
 
 /* Download Section */
 
+table i.fa.fa-question-circle {
+	font-size: 16px;
+	color: #003059;
+}
+
 .mirrors a {
     font-weight: bold;
     font-size: 14px;
