@@ -878,7 +878,7 @@ a.more:hover {
     width: auto;
 	overflow: hidden;
 	background-color: #fff;
-    padding: 15px;
+    padding: 0 15px 15px;
 	border-bottom: 2px solid #ddd;
 }
 
