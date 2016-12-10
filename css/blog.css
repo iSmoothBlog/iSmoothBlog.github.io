@@ -885,11 +885,11 @@ a.more:hover {
 #post-footer h4 {
     position: relative;
     overflow: hidden;
-    margin: 0 0 20px;
+    margin: 0;
+    padding: 0;
     letter-spacing: 1px;
     font-size: 120%;
     font-weight: 700;
-    padding: 0 8px;
     text-align: center;
     text-transform: uppercase;
     transition: all 0.5s ease-out
