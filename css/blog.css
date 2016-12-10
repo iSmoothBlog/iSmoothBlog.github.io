@@ -885,7 +885,7 @@ a.more:hover {
 #post-footer h4 {
     position: relative;
     overflow: hidden;
-    margin: 0;
+    margin: 0 0 5px;
     padding: 0;
     letter-spacing: 1px;
     font-size: 120%;
