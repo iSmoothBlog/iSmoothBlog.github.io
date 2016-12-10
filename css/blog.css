@@ -874,7 +874,36 @@ a.more:hover {
 
 /* Post Footer */
 
-.post-footer {
+#post-footer h4 {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 20px;
+    letter-spacing: 1px;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 0 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease-out
+}
+
+#post-footer h4:before,
+#post-footer h4:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #ddd
+}
+
+#post-footer h4:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+#post-footer {
     width: auto;
 	overflow: hidden;
 	background-color: #fff;
