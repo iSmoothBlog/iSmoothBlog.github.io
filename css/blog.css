@@ -874,6 +874,14 @@ a.more:hover {
 
 /* Post Footer */
 
+#post-footer {
+    width: auto;
+	overflow: hidden;
+	background-color: #fff;
+    padding: 15px;
+	border-bottom: 2px solid #ddd;
+}
+
 #post-footer h4 {
     position: relative;
     overflow: hidden;
@@ -903,12 +911,11 @@ a.more:hover {
     text-align: right;
 }
 
-#post-footer {
-    width: auto;
-	overflow: hidden;
-	background-color: #fff;
-    padding: 15px;
-	border-bottom: 2px solid #ddd;
+#post-footer span.socialize {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    margin: auto;
 }
 
 .post-footer-comments {
