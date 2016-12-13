@@ -2,7 +2,6 @@
 
 .breadcrumbs > span:last-child {
     visibility: hidden;
-    display: block;
     font-size: 0;
     line-height: 0;
     clear: both;
