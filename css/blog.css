@@ -1,5 +1,15 @@
 /* Blog Post Layout */
 
+.breadcrumbs > span:last-child {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    width: 0;
+    height: 0;
+}
+
 .post-body blockquote {
     position: relative;
     margin: 0 auto;
