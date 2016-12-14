@@ -1,5 +1,9 @@
 /* Blog Post Layout */
 
+span.breadcrumb-title {
+	display: none;
+}
+
 .breadcrumbs > span:last-child {
     visibility: hidden;
     font-size: 0;
