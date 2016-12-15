@@ -952,6 +952,7 @@ a.post-comments-button {
     margin-top: 0;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
+    color: #888!important;
     font-weight: 400;
     background: #ddd;
     padding: 10px;
