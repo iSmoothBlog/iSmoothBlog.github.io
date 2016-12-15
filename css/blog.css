@@ -942,7 +942,7 @@ a.more:hover {
 	color: #999;
 }
 
-span.post-comments-button {
+a.post-comments-button {
     border: medium none;
     border-radius: 3px;
     float: right;
@@ -957,15 +957,15 @@ span.post-comments-button {
     padding: 10px;
 }
 
-span.post-comments-button a {
+a.post-comments-button span {
     color: #888!important;
 }
 
-span.post-comments-button:hover {
+a.post-comments-button:hover {
     color: #444!important
 }
 
-span.post-comments-button:before {
+a.post-comments-button:before {
     font-family: FontAwesome;
     content: '\f27b';
     margin-right: 5px;
