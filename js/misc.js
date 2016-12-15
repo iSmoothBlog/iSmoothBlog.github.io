@@ -18,6 +18,11 @@ function scrollToTop() {
     offsetTop = offset.top;
     $('html, body').animate({scrollTop: offsetTop}, 800, 'linear');
 }
+$(".post-comments-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#discussion").offset().top
+    }, 1000);
+});
 //Dialog Box
 function CustomAlert(){
  this.render = function(dialog){
