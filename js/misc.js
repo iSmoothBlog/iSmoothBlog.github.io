@@ -18,7 +18,7 @@ function scrollToTop() {
     offsetTop = offset.top;
     $('html, body').animate({scrollTop: offsetTop}, 800, 'linear');
 }
-$('.post-comments-button[href="#discussion"]').click(function() {
+$('.post-comments-button').click(function() {
     $('html, body').animate({
         scrollTop: $("#discussion").offset().top
     }, 1000);
