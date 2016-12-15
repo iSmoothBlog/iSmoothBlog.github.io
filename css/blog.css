@@ -942,7 +942,7 @@ a.more:hover {
 	color: #999;
 }
 
-.post-comments-button {
+a.post-comments-button {
     border: medium none;
     border-radius: 3px;
     float: right;
@@ -958,10 +958,16 @@ a.more:hover {
     padding: 10px;
 }
 
-.post-comments-button:hover {
+a.post-comments-button:hover {
     color: #444!important
 }
 
+a.post-comments-button:before {
+    font-family: FontAwesome;
+    content: '\f27b';
+    margin-right: 5px;
+    font-size: 20px;
+}
 
 /* Blog Responsive */
 
