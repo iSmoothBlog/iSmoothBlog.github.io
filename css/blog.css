@@ -486,7 +486,7 @@ pre[data-codetype="auto"]:before {
 }
 
 micro-code,
-code .micro {
+.micro {
     position: relative;
     background-color: #f2f2f2;
     border: 1px solid #e6e6e6;
@@ -499,7 +499,7 @@ code .micro {
 }
 
 micro-code:before,
-code .micro:before {
+.micro:before {
     position: absolute;
     content: 'Double Click (Select)';
     display: table;
@@ -519,7 +519,7 @@ code .micro:before {
 }
 
 micro-code:hover:before,
-code .micro:hover:before {
+.micro:hover:before {
     transform: scale(1.0);
     opacity: 1;
     visibility: visible;
