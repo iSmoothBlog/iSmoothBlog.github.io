@@ -335,7 +335,7 @@ h1.post-title:after {
 
 .sharethis-inline-share-buttons {
     	width: auto;
-	height: 100%;
+	height: 40px;
 	overflow: hidden;
 	background-color: #fff;
     	padding: 15px;
