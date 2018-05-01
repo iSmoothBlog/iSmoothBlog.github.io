@@ -824,7 +824,7 @@ a.more:hover {
 	overflow: hidden;
 	background-color: #fff;
     	padding: 0 15px 15px;
-	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	border-bottom: 2px solid #ddd;
 }
 
