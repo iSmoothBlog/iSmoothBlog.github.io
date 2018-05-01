@@ -339,7 +339,6 @@ h1.post-title:after {
 	overflow: hidden;
 	background-color: #fff;
     	padding: 15px;
-	border-top: 1px solid #ddd;
 }
 
 
@@ -820,13 +819,21 @@ a.more:hover {
 
 /* Post Footer */
 
-#post-footer {
+
+#post-footer-outer {
+    	width: auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+#post-footer-inner {
     	width: auto;
 	overflow: hidden;
 	background-color: #fff;
     	padding: 15px;
 	border-top: 1px solid #ddd;
-	border-bottom: 2px solid #ddd;
 }
 
 .post-footer-comments {
