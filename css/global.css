@@ -1126,7 +1126,7 @@ footer {
     float: left;
     display: inline;
     opacity: 1;
-    margin: 0 5px 5px
+    margin: 0 15px 5px 0;
 }
 
 .profile-data {
