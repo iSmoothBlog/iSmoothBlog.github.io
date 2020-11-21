@@ -334,14 +334,15 @@ h1.post-title:after {
 /* Widgets */
 
 .sharethis-inline-share-buttons {
-    	width: auto;
+	width: auto;
 	overflow: hidden;
 	background-color: #fff;
-    	padding: 15px;
+	padding: 15px;
 }
 
-div.recommend-wrapper {
-    overflow: hidden;
+.recommend-wrapper {
+	overflow-x: hidden!important;
+	overflow-y: hidden!important;
 }
 
 /* iSmoothBlog Syntax Highlighter */
