@@ -340,9 +340,8 @@ h1.post-title:after {
 	padding: 15px;
 }
 
-.recommend-wrapper {
-	overflow-x: hidden!important;
-	overflow-y: hidden!important;
+#disqus_thread .recommend-wrapper {
+	overflow: hidden!important;
 }
 
 /* iSmoothBlog Syntax Highlighter */
