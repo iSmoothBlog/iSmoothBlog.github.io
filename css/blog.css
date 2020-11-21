@@ -340,8 +340,8 @@ h1.post-title:after {
     	padding: 15px;
 }
 
-.recommend-wrapper {
-    overflow: hidden!important;
+div.recommend-wrapper {
+    overflow: hidden;
 }
 
 /* iSmoothBlog Syntax Highlighter */
