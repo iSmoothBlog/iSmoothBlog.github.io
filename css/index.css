@@ -198,59 +198,12 @@ a.read-more:active {
     float: left;
 }
 
-#___follow_0 {
-margin-top: 10px!important;
-}
-
 .author-bb {
     margin-left: 100px
 }
 
 .author-bb p {
     margin: 5px 0!important;
-}
-
-.author-icons {
-    position: absolute;
-    right: 20px;
-    top: 20px
-}
-
-.author-icons .website:before {
-    content: "\f0ac";
-    background-color: #3B5998
-}
-
-.author-icons .facebook:before {
-    content: "\f09a";
-    background-color: #3B5998
-}
-
-.author-icons .twitter:before {
-    content: "\f099";
-    background-color: #55ACEE
-}
-
-.author-icons .gplus:before {
-    content: "\f0d5";
-    background-color: #DD4B39
-}
-
-.author-icons a:before {
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    color: #FFF;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    text-align: center;
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
 .author-name {
