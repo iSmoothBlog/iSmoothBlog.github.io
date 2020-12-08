@@ -1222,8 +1222,7 @@ footer {
 .yellowbox,
 .greybox {
     padding: 15px 15px 10px 15px;
-    margin: auto;
-    width: 90%;
+    margin: 15px 0 30px 0;
     overflow: hidden;
     border-width: 2px !important;
 }
