@@ -1486,7 +1486,7 @@ footer {
     font-size: 21px;
 }
 
-#footer-wrapper .About h2:before {
+#HTML2 h2:before {
     font-family: FontAwesome;
     content: '\f2c0'!important;
     margin-right: 10px;
