@@ -49,6 +49,7 @@ function CustomAlert() {
         document.getElementById("dialogoverlay").style.display = "none";
     };
 }
+
 var Alert = new CustomAlert();
 
 // Double Click (Select All)
