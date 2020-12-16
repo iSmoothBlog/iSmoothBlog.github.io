@@ -2084,12 +2084,13 @@ span.showpage.prevpage {
 @media only screen and (max-width:768px) {
     #menutop {
         background: #fff;
-        position: relative;
+        position: fixed;
         border: none;
         border-bottom: 4px solid #999;
-		height: auto;
-		min-height: 50px;
-		margin-bottom: 20px;
+	height: auto;
+	min-height: 50px;
+	margin-bottom: 20px;
+	z-index: 10;
     }
     #menutop li:hover > ul.menux {
         display: block;
