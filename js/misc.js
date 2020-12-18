@@ -76,7 +76,7 @@ $(function () {
             t = $("#HTML1").offset().top,
             i = $("#HTML1").height();
         $(window).scroll(function () {
-            var s = $("#footerfix").offset().top - i - 1000,
+            var s = $("#blog-pager").offset().top - i - 500,
                 f = $(window).scrollTop();
             if (
                 (f > t
