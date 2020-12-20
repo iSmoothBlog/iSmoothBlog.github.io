@@ -888,19 +888,6 @@ a.post-comments-button:before {
 }
 
 @media only screen and (max-width:850px) {
-    #post-wrapper {
-        width: 100%;
-        max-width: 100;
-    }
-    #post-wrapper {
-        margin: 0;
-    }
-    .post-body img {
-        max-width: 90%;
-    }
-}
-
-@media only screen and (max-width:640px) {
     #HTML1 {
         display: none;
         visibility: hidden;
@@ -908,6 +895,21 @@ a.post-comments-button:before {
         opacity: 0;
     }
 
+    #post-wrapper {
+        width: 100%;
+        max-width: 100;
+    }
+
+    #post-wrapper {
+        margin: 0;
+    }
+
+    .post-body img {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width:640px) {
     #related_img ul {
         margin: 0;
         padding: 0;
