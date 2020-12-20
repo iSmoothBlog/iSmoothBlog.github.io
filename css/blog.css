@@ -57,6 +57,7 @@ span.breadcrumb-title {
 .post {
     background: #fff;
     padding: 15px 15px 20px 15px;
+    border-bottom: 2px solid #ddd;
 }
 
 .post-body {
@@ -334,13 +335,13 @@ h1.post-title:after {
 /* Widgets */
 
 .sharethis-inline-share-buttons {
-	width: auto;
-	overflow: hidden;
-	background-color: #f0f0f0;
-	padding: 5px;
-	margin: 0 15px 0 15px;
-	border: solid 1px #d3d3d3;
-	border-radius: 3px;
+    width: auto;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-top: 15px;
+    border: solid 1px #d3d3d3;
+    border-radius: 3px;
 }
 
 /* iSmoothBlog Syntax Highlighter */
@@ -820,19 +821,17 @@ a.more:hover {
 
 /* Post Footer */
 
-
 #post-footer-outer {
     	width: auto;
 	overflow: hidden;
 	background-color: #fff;
-	border-bottom: 2px solid #ddd;
 }
 
 #post-footer-inner {
     	width: auto;
 	overflow: hidden;
 	background-color: #fff;
-    	padding: 15px;
+    	padding-top: 15px;
 }
 
 .post-footer-comments {
@@ -941,17 +940,20 @@ a.post-comments-button:before {
         padding-left: 8px;
         padding-right: 8px
     }
+
     h2.post-title,
     h1.post-title {
         font-size: 16px;
     }
+
     .author-icons {
         visibility: hidden;
         display: none;
     }
-	.author-box {
-		max-height: none;
-	}
+
+    .author-box {
+        max-height: none;
+    }
 }
 
 @media only screen and (max-width:320px) {
