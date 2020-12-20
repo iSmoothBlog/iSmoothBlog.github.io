@@ -880,7 +880,7 @@ a.post-comments-button:before {
 
 @media screen and (max-width:1066px) {
     #HTML2 {
-		display: none;
+        display: none;
         visibility: hidden;
         overflow: hidden;
         opacity: 0;
@@ -901,22 +901,33 @@ a.post-comments-button:before {
 }
 
 @media only screen and (max-width:640px) {
+    #HTML1 {
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+        opacity: 0;
+    }
+
     #related_img ul {
         margin: 0;
         padding: 0;
     }
+
     #related_img li a {
         font-size: 13px
     }
+
     #related_img .news-title {
         display: inline-block;
         width: 100%
     }
+
     #post-wrapper,
     #sidebar-wrapper {
         width: 100%;
         max-width: 100%
     }
+
     h2.post-title,
     h1.post-title,
     h2.post-title a,
@@ -925,10 +936,12 @@ a.post-comments-button:before {
     h1.post-title {
         font-size: 18px;
     }
+
     .post {
         padding-left: 8px;
         padding-right: 8px
     }
+
     .newsletter {
         display: none;
         visibility: hidden;
