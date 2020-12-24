@@ -1,5 +1,9 @@
 /* Static Page Layout */
 
+span.breadcrumb-title {
+	display: none;
+}
+
 .post-body blockquote {
     position: relative;
     margin: 0 auto;
