@@ -650,6 +650,10 @@ footer {
 
 /* Global Wrapper */
 
+span.breadcrumb-title {
+	display: none;
+}
+
 #post-wrapper {
     float: left;
     width: 70%;
