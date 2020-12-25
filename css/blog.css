@@ -489,8 +489,8 @@ pre[data-codetype="auto"]:before {
 .buymeacoffee {
     text-align: center;
     padding: 10px;
-    --tw-bg-opacity: 1;
-    background-color: rgba(254,243,199,var(--tw-bg-opacity));
+    color: rgba(146,64,14);
+    background-color: rgba(254,243,199);
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
     transition-delay: 0.2s;
