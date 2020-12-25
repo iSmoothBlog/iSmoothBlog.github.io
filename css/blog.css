@@ -666,7 +666,6 @@ a.coffee-inner {
     background: none repeat scroll 0 0 #161616;
 }
 
-
 /* Comments */
 
 #comments {
@@ -1027,6 +1026,10 @@ a.post-comments-button:before {
     .newsletter {
         display: none;
         visibility: hidden;
+    }
+
+    .buymeacoffee {
+        margin: 0;
     }
 }
 
