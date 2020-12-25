@@ -529,26 +529,13 @@ a.coffee-inner {
     margin-right: 6px;
 }
 
-.coffee-inner .coffee-front,
-.coffee-inner .coffee-backup {
+.coffee-inner .coffee-front {
+    background-color: #D97706;
+    color: #fff;
     display: block;
     padding: 0 20px;
     line-height: 40px;
     transition: margin .4s;
-}
-
-.coffee-inner .coffee-front {
-    background-color: #D97706;
-    color: #fff;
-}
-
-.coffee-inner .coffee-backup {
-    background-color: #fff;
-    color: #D97706;
-}
-
-.coffee-inner:hover .coffee-front {
-    margin-top: -40px;
 }
 
 /* Newsletter */
