@@ -499,15 +499,17 @@ pre[data-codetype="auto"]:before {
 }
 
 .buycoffee {
-    outline: 0 none;
-    border: 0;
-    background: rgba(217,119,6);
-    color: #FFF;
-    right: 0;
-    position: absolute;
-    height: 40px;
-    transition: all ease 0.6s;
     padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(217,119,6);
+    position: relative;
+    transition: all ease 0.6s;
+}
+
+.buycoffee a {
+    color: #fff;
 }
 
 /* Newsletter */
