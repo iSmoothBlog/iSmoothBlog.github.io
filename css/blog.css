@@ -516,7 +516,6 @@ pre[data-codetype="auto"]:before {
     text-decoration: none;
     color: #f56954;
     overflow: hidden;
-    border-radius: 5px;
 }
 
 a.coffee-inner {
