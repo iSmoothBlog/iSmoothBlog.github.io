@@ -485,7 +485,7 @@ pre[data-codetype="auto"]:before {
 }
 
 /* Buy me a Coffee */
-.buy me a coffee {
+.buymeacoffee {
     margin: 20px 0 0 0;
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
