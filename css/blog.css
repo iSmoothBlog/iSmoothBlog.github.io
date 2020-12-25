@@ -195,7 +195,7 @@ h1.post-title a:hover {
 
 .connect-inner {
     margin-bottom: 0;
-    padding: 5px 15px 15px 15px;
+    padding: 15px;
     background: #fff;
 }
 
@@ -489,7 +489,6 @@ pre[data-codetype="auto"]:before {
 .buymeacoffee {
     text-align: center;
     padding: 10px;
-    margin: 15px 0 0 0;
     --tw-bg-opacity: 1;
     background-color: rgba(254,243,199,var(--tw-bg-opacity));
     -webkit-transform: translateZ(0);
