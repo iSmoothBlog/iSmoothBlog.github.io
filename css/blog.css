@@ -499,7 +499,7 @@ pre[data-codetype="auto"]:before {
 }
 
 .coffee-button {
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding: 0;
     width: auto;
     text-align: center;
@@ -508,7 +508,7 @@ pre[data-codetype="auto"]:before {
 .coffee-inner {
     height: 40px;
     display: inline-block;
-    border: 3px solid #8493A0;
+    border: 3px solid #D97706;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -538,13 +538,13 @@ a.coffee-inner {
 }
 
 .coffee-inner .coffee-front {
-    background-color: #8493A0;
+    background-color: #D97706;
     color: #fff;
 }
 
 .coffee-inner .coffee-backup {
     background-color: #fff;
-    color: #8493A0;
+    color: #D97706;
 }
 
 .coffee-inner:hover .coffee-front {
