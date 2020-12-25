@@ -487,8 +487,10 @@ pre[data-codetype="auto"]:before {
 /* Buy Me a Coffee */
 
 .buymeacoffee {
+    font-size: 1rem;
+    line-height: 1.5rem;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color: rgba(146,64,14);
     background-color: rgba(254,243,199);
     -webkit-transform: translateZ(0);
