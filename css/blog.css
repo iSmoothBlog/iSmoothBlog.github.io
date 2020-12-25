@@ -168,6 +168,37 @@ h1.post-title a:hover {
 	border: #d3d3d3 solid 1px;
 }
 
+#connect-outer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+#connect-outer h2 {
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 400;
+    color: #444!important;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
+    background-color: #d3d3d3!important;
+    margin-bottom: 0!important;
+}
+
+#connect-outer h2:before {
+    font-family: FontAwesome;
+    content: '\f1da';
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.connect-inner {
+    margin-bottom: 0;
+    padding: 5px 15px 15px 15px;
+    background: #fff;
+}
+
 #explore-outer {
     margin-top: 20px;
     margin-bottom: 20px;
