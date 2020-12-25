@@ -540,7 +540,7 @@ a.coffee-inner {
 /* Newsletter */
 
 .newsletter {
-    margin: 20px 0 0 0;
+    margin: 0;
     -webkit-transform: translateZ(0);
     transition: all 0.5s ease-in-out;
     transition-delay: 0.2s;
