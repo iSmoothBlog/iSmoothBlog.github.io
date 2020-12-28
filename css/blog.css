@@ -436,7 +436,7 @@ pre code {
     overflow: hidden;
 }
 
-pre code:before {
+pre .terminal-line:before {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
