@@ -436,6 +436,10 @@ pre code {
     overflow: hidden;
 }
 
+pre code:before {
+    
+}
+
 .hljs {
     overflow-x: auto;
     overflow-y: hidden;
