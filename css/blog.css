@@ -437,7 +437,7 @@ pre code {
 }
 
 pre code:before {
-    
+    content: attr(prefix);
 }
 
 .hljs {
