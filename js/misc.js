@@ -57,7 +57,8 @@ var Alert = new CustomAlert();
 $('i[rel="pre"]').replaceWith(function () {
     return $("<pre><code>" + $(this).html() + "</code></pre>");
 });
-for (var pres = document.querySelectorAll("pre,code,blockquote,i"), i = 0; i < pres.length; i++)
+
+for (var pres = document.querySelectorAll("pre,code,blockquote,i"), i = 1; i < pres.length; i++)
     pres[i].addEventListener(
         "dblclick",
         function () {
