@@ -437,9 +437,7 @@ pre code {
 }
 
 pre .terminal-line:before {
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    font-family: Roboto Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
     content: attr(prefix);
     display: inline-block;
     text-align: right;
@@ -447,7 +445,10 @@ pre .terminal-line:before {
     line-height: 1.25rem;
     margin-right: .5rem;
     color: #4B5563;
-    font-family: Roboto Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    opacity: 0.9;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .hljs {
