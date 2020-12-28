@@ -437,7 +437,17 @@ pre code {
 }
 
 pre code:before {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     content: attr(prefix);
+    display: inline-block;
+    text-align: right;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-right: .5rem;
+    color: #4B5563;
+    font-family: Roboto Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
 .hljs {
