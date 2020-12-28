@@ -54,17 +54,13 @@ var Alert = new CustomAlert();
 
 // Double Click (Select All)
 
-$('i[rel="pre"]').replaceWith(function () {
-    return $("<pre><code>" + $(this).html() + "</code></pre>");
+document.addEventListener('dblclick', e => {
+  let pre = getClosest(e.target, "PRE");
+  if (pre) {
+    let range = new Range();
+    range.setStart(pre, 0);
+    range.setEnd(pre, 1);
+    document.getSelection().removeAllRanges();
+    document.getSelection().addRange(range);
+  }
 });
-
-for (var pres = document.querySelectorAll("pre,code,blockquote,i"), i = 0; i < pres.length; i++)
-    pres[i].addEventListener(
-        "dblclick",
-        function () {
-            var e = getSelection(),
-                t = document.createRange();
-            t.selectNodeContents(this), e.removeAllRanges(), e.addRange(t);
-        },
-        !1
-    );
