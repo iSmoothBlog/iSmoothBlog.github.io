@@ -58,8 +58,8 @@ document.addEventListener('dblclick', e => {
   let pre = getClosest(e.target, "PRE");
   if (pre) {
     let range = new Range();
-    range.setStart(pre, 1);
-    range.setEnd(pre, 2);
+    range.setStart(pre, 0);
+    range.setEnd(pre, 1);
     document.getSelection().removeAllRanges();
     document.getSelection().addRange(range);
   }
