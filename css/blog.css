@@ -417,20 +417,6 @@ pre::before {
     text-indent: 15px;
 }
 
-pre:after {
-    display: inline-block;
-    content: "\f121";
-    font-family: fontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #79798d;
-    top: 0;
-    right: 0;
-    padding: 9px 14px;
-    position: absolute
-}
-
 pre code {
     overflow: hidden;
 }
