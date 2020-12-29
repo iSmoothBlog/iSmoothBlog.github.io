@@ -55,15 +55,9 @@ var Alert = new CustomAlert();
 // Double Click (Select All)
 
 document.addEventListener('dblclick', e => {
-  let pre = getClosest(e.target, "PRE");
   let code = getClosest(e.target, "CODE");
-  if (pre) {
+  if (code) {
     let range = new Range();
-    range.setStart(pre, 0);
-    range.setEnd(pre, 1);
-    document.getSelection().removeAllRanges();
-    document.getSelection().addRange(range);
-  } else if (code) {
     range.setStart(code, 0);
     range.setEnd(code, 1);
     document.getSelection().removeAllRanges();
