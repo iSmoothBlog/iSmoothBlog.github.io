@@ -2027,10 +2027,6 @@ span.showpage.prevpage {
         margin-left: 20px;
     }
 
-    .footer-bottom .widget-content {
-        height: 100%;
-    }
-
     .smoothscroll:hover {
 	color: #444;
 	background: #c1c1c1;
